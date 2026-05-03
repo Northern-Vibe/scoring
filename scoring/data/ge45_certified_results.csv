@@ -1,0 +1,1578 @@
+fed_code,riding_name,province,party,vote_share,votes,certified
+10001,Avalon,NL,LPC,58.6,27563,True
+10001,Avalon,NL,CPC,36.0,16953,True
+10001,Avalon,NL,NDP,4.9,2284,True
+10002,Cape Spear,NL,LPC,68.3,31388,True
+10002,Cape Spear,NL,CPC,25.8,11844,True
+10002,Cape Spear,NL,NDP,5.3,2446,True
+10002,Cape Spear,NL,GPC,0.3,140,True
+10003,Central Newfoundland,NL,CPC,54.1,21975,True
+10003,Central Newfoundland,NL,LPC,43.5,17696,True
+10003,Central Newfoundland,NL,NDP,2.4,965,True
+10004,Labrador,NL,LPC,51.5,5811,True
+10004,Labrador,NL,CPC,41.7,4709,True
+10004,Labrador,NL,NDP,6.8,764,True
+10005,Long Range Mountains,NL,CPC,50.3,23232,True
+10005,Long Range Mountains,NL,LPC,42.7,19726,True
+10005,Long Range Mountains,NL,NDP,4.4,2011,True
+10005,Long Range Mountains,NL,PPC,1.2,537,True
+10006,St. John's East,NL,LPC,62.3,28681,True
+10006,St. John's East,NL,CPC,25.9,11941,True
+10006,St. John's East,NL,NDP,11.2,5172,True
+10006,St. John's East,NL,GPC,0.3,159,True
+10007,Terra Nova—The Peninsulas,NL,CPC,48.0,19605,True
+10007,Terra Nova—The Peninsulas,NL,LPC,47.9,19593,True
+10007,Terra Nova—The Peninsulas,NL,NDP,4.1,1677,True
+11001,Cardigan,PE,LPC,57.0,14404,True
+11001,Cardigan,PE,CPC,37.4,9442,True
+11001,Cardigan,PE,NDP,2.0,505,True
+11001,Cardigan,PE,GPC,1.3,326,True
+11001,Cardigan,PE,PPC,0.7,180,True
+11002,Charlottetown,PE,LPC,64.8,13656,True
+11002,Charlottetown,PE,CPC,29.1,6139,True
+11002,Charlottetown,PE,NDP,4.3,906,True
+11002,Charlottetown,PE,GPC,1.2,257,True
+11002,Charlottetown,PE,PPC,0.6,131,True
+11003,Egmont,PE,LPC,51.9,12466,True
+11003,Egmont,PE,CPC,43.4,10419,True
+11003,Egmont,PE,NDP,2.4,585,True
+11003,Egmont,PE,GPC,2.2,538,True
+11004,Malpeque,PE,LPC,57.6,15485,True
+11004,Malpeque,PE,CPC,36.6,9846,True
+11004,Malpeque,PE,GPC,3.9,1049,True
+11004,Malpeque,PE,NDP,1.4,371,True
+11004,Malpeque,PE,PPC,0.5,132,True
+12001,Acadie—Annapolis,NS,CPC,47.7,23024,True
+12001,Acadie—Annapolis,NS,LPC,46.6,22491,True
+12001,Acadie—Annapolis,NS,NDP,3.7,1768,True
+12001,Acadie—Annapolis,NS,GPC,1.2,583,True
+12001,Acadie—Annapolis,NS,PPC,0.9,432,True
+12002,Cape Breton—Canso—Antigonish,NS,LPC,51.6,24908,True
+12002,Cape Breton—Canso—Antigonish,NS,CPC,43.2,20870,True
+12002,Cape Breton—Canso—Antigonish,NS,NDP,4.0,1930,True
+12002,Cape Breton—Canso—Antigonish,NS,PPC,0.7,333,True
+12003,Central Nova,NS,LPC,51.9,26078,True
+12003,Central Nova,NS,CPC,42.7,21465,True
+12003,Central Nova,NS,NDP,3.3,1649,True
+12003,Central Nova,NS,GPC,0.9,455,True
+12003,Central Nova,NS,PPC,0.7,331,True
+12004,Cumberland—Colchester,NS,LPC,48.3,23929,True
+12004,Cumberland—Colchester,NS,CPC,45.8,22701,True
+12004,Cumberland—Colchester,NS,NDP,3.8,1873,True
+12004,Cumberland—Colchester,NS,GPC,1.4,694,True
+12004,Cumberland—Colchester,NS,PPC,0.7,333,True
+12005,Dartmouth—Cole Harbour,NS,LPC,67.7,40367,True
+12005,Dartmouth—Cole Harbour,NS,CPC,22.7,13557,True
+12005,Dartmouth—Cole Harbour,NS,NDP,7.0,4201,True
+12005,Dartmouth—Cole Harbour,NS,PPC,1.3,750,True
+12005,Dartmouth—Cole Harbour,NS,GPC,1.1,628,True
+12006,Halifax,NS,LPC,63.0,32886,True
+12006,Halifax,NS,CPC,19.1,9939,True
+12006,Halifax,NS,NDP,16.6,8642,True
+12006,Halifax,NS,GPC,0.8,422,True
+12006,Halifax,NS,PPC,0.5,271,True
+12007,Halifax West,NS,LPC,65.6,36200,True
+12007,Halifax West,NS,CPC,27.2,15020,True
+12007,Halifax West,NS,NDP,5.6,3083,True
+12007,Halifax West,NS,GPC,0.9,497,True
+12007,Halifax West,NS,PPC,0.7,384,True
+12008,Kings—Hants,NS,LPC,60.6,35836,True
+12008,Kings—Hants,NS,CPC,33.4,19773,True
+12008,Kings—Hants,NS,NDP,3.6,2154,True
+12008,Kings—Hants,NS,GPC,1.4,825,True
+12008,Kings—Hants,NS,PPC,1.0,591,True
+12009,Sackville—Bedford—Preston,NS,LPC,62.0,36062,True
+12009,Sackville—Bedford—Preston,NS,CPC,32.4,18860,True
+12009,Sackville—Bedford—Preston,NS,NDP,4.0,2324,True
+12009,Sackville—Bedford—Preston,NS,GPC,0.9,526,True
+12009,Sackville—Bedford—Preston,NS,PPC,0.7,418,True
+12010,South Shore—St. Margarets,NS,LPC,54.9,27831,True
+12010,South Shore—St. Margarets,NS,CPC,41.1,20864,True
+12010,South Shore—St. Margarets,NS,GPC,1.6,818,True
+12010,South Shore—St. Margarets,NS,PPC,1.4,698,True
+12011,Sydney—Glace Bay,NS,LPC,54.6,25766,True
+12011,Sydney—Glace Bay,NS,CPC,38.1,17978,True
+12011,Sydney—Glace Bay,NS,NDP,3.8,1789,True
+12011,Sydney—Glace Bay,NS,PPC,1.2,589,True
+13001,Acadie—Bathurst,NB,LPC,67.5,32556,True
+13001,Acadie—Bathurst,NB,CPC,26.0,12541,True
+13001,Acadie—Bathurst,NB,NDP,4.4,2108,True
+13001,Acadie—Bathurst,NB,PPC,2.2,1043,True
+13002,Beauséjour,NB,LPC,60.6,36139,True
+13002,Beauséjour,NB,CPC,33.3,19862,True
+13002,Beauséjour,NB,NDP,2.4,1448,True
+13002,Beauséjour,NB,GPC,2.2,1291,True
+13002,Beauséjour,NB,PPC,0.8,503,True
+13003,Fredericton—Oromocto,NB,LPC,61.3,30750,True
+13003,Fredericton—Oromocto,NB,CPC,32.3,16200,True
+13003,Fredericton—Oromocto,NB,GPC,3.1,1568,True
+13003,Fredericton—Oromocto,NB,NDP,1.8,908,True
+13003,Fredericton—Oromocto,NB,PPC,0.4,208,True
+13004,Fundy Royal,NB,CPC,53.4,25411,True
+13004,Fundy Royal,NB,LPC,40.1,19103,True
+13004,Fundy Royal,NB,NDP,3.2,1507,True
+13004,Fundy Royal,NB,GPC,2.0,961,True
+13004,Fundy Royal,NB,PPC,1.3,629,True
+13005,Madawaska—Restigouche,NB,LPC,55.2,22720,True
+13005,Madawaska—Restigouche,NB,CPC,39.6,16320,True
+13005,Madawaska—Restigouche,NB,NDP,3.0,1251,True
+13005,Madawaska—Restigouche,NB,PPC,2.2,887,True
+13006,Miramichi—Grand Lake,NB,CPC,48.2,18421,True
+13006,Miramichi—Grand Lake,NB,LPC,47.1,18037,True
+13006,Miramichi—Grand Lake,NB,NDP,2.5,968,True
+13006,Miramichi—Grand Lake,NB,GPC,2.2,831,True
+13007,Moncton—Dieppe,NB,LPC,63.0,30215,True
+13007,Moncton—Dieppe,NB,CPC,31.2,14974,True
+13007,Moncton—Dieppe,NB,NDP,3.7,1775,True
+13007,Moncton—Dieppe,NB,GPC,2.1,994,True
+13008,Saint John—Kennebecasis,NB,LPC,58.1,26129,True
+13008,Saint John—Kennebecasis,NB,CPC,37.3,16787,True
+13008,Saint John—Kennebecasis,NB,NDP,2.7,1206,True
+13008,Saint John—Kennebecasis,NB,GPC,1.6,737,True
+13009,Saint John—St. Croix,NB,CPC,53.1,26591,True
+13009,Saint John—St. Croix,NB,LPC,41.5,20784,True
+13009,Saint John—St. Croix,NB,NDP,3.3,1643,True
+13009,Saint John—St. Croix,NB,GPC,1.6,794,True
+13010,Tobique—Mactaquac,NB,CPC,58.8,23322,True
+13010,Tobique—Mactaquac,NB,LPC,35.9,14226,True
+13010,Tobique—Mactaquac,NB,GPC,2.0,806,True
+13010,Tobique—Mactaquac,NB,NDP,2.0,812,True
+13010,Tobique—Mactaquac,NB,PPC,1.3,501,True
+24001,Abitibi—Baie-James—Nunavik—Eeyou,QC,LPC,41.2,12578,True
+24001,Abitibi—Baie-James—Nunavik—Eeyou,QC,BQ,34.0,10381,True
+24001,Abitibi—Baie-James—Nunavik—Eeyou,QC,CPC,22.4,6850,True
+24001,Abitibi—Baie-James—Nunavik—Eeyou,QC,NDP,2.5,752,True
+24002,Abitibi—Témiscamingue,QC,BQ,49.4,24774,True
+24002,Abitibi—Témiscamingue,QC,LPC,27.0,13551,True
+24002,Abitibi—Témiscamingue,QC,CPC,19.7,9861,True
+24002,Abitibi—Témiscamingue,QC,NDP,3.0,1480,True
+24003,Ahuntsic-Cartierville,QC,LPC,61.0,30833,True
+24003,Ahuntsic-Cartierville,QC,BQ,16.9,8538,True
+24003,Ahuntsic-Cartierville,QC,CPC,15.0,7600,True
+24003,Ahuntsic-Cartierville,QC,NDP,6.6,3333,True
+24004,Alfred-Pellan,QC,LPC,54.6,32934,True
+24004,Alfred-Pellan,QC,CPC,21.0,12671,True
+24004,Alfred-Pellan,QC,BQ,20.3,12259,True
+24004,Alfred-Pellan,QC,NDP,3.4,2044,True
+24004,Alfred-Pellan,QC,PPC,0.7,423,True
+24005,Argenteuil—La Petite-Nation,QC,LPC,47.5,28124,True
+24005,Argenteuil—La Petite-Nation,QC,CPC,24.8,14697,True
+24005,Argenteuil—La Petite-Nation,QC,BQ,22.8,13520,True
+24005,Argenteuil—La Petite-Nation,QC,NDP,2.5,1499,True
+24005,Argenteuil—La Petite-Nation,QC,GPC,1.4,807,True
+24005,Argenteuil—La Petite-Nation,QC,PPC,1.0,586,True
+24006,Beauce,QC,CPC,59.7,37604,True
+24006,Beauce,QC,LPC,19.1,12057,True
+24006,Beauce,QC,BQ,13.6,8595,True
+24006,Beauce,QC,PPC,5.8,3626,True
+24006,Beauce,QC,NDP,1.7,1100,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,BQ,43.9,30005,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,LPC,32.1,21939,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,CPC,19.4,13230,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,NDP,2.4,1663,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,GPC,1.2,802,True
+24007,Beauharnois—Salaberry—Soulanges—Huntingdon,QC,PPC,1.0,675,True
+24008,Beauport—Limoilou,QC,LPC,35.6,21858,True
+24008,Beauport—Limoilou,QC,CPC,30.1,18492,True
+24008,Beauport—Limoilou,QC,BQ,28.6,17558,True
+24008,Beauport—Limoilou,QC,NDP,3.4,2095,True
+24008,Beauport—Limoilou,QC,GPC,1.5,924,True
+24008,Beauport—Limoilou,QC,PPC,0.6,396,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,BQ,47.0,25506,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,LPC,27.3,14813,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,CPC,21.6,11717,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,NDP,2.0,1112,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,GPC,1.4,738,True
+24009,Bécancour—Nicolet—Saurel—Alnôbak,QC,PPC,0.8,432,True
+24010,Bellechasse—Les Etchemins—Lévis,QC,CPC,49.1,32097,True
+24010,Bellechasse—Les Etchemins—Lévis,QC,LPC,28.5,18642,True
+24010,Bellechasse—Les Etchemins—Lévis,QC,BQ,18.7,12244,True
+24010,Bellechasse—Les Etchemins—Lévis,QC,NDP,2.5,1621,True
+24010,Bellechasse—Les Etchemins—Lévis,QC,PPC,1.2,794,True
+24011,Beloeil—Chambly,QC,BQ,48.3,32844,True
+24011,Beloeil—Chambly,QC,LPC,34.0,23136,True
+24011,Beloeil—Chambly,QC,CPC,13.5,9199,True
+24011,Beloeil—Chambly,QC,NDP,3.5,2391,True
+24011,Beloeil—Chambly,QC,PPC,0.7,482,True
+24012,Berthier—Maskinongé,QC,BQ,35.0,21676,True
+24012,Berthier—Maskinongé,QC,LPC,24.3,15056,True
+24012,Berthier—Maskinongé,QC,NDP,21.7,13457,True
+24012,Berthier—Maskinongé,QC,CPC,17.2,10641,True
+24012,Berthier—Maskinongé,QC,PPC,0.9,575,True
+24012,Berthier—Maskinongé,QC,GPC,0.9,551,True
+24013,Bourassa,QC,LPC,58.6,21198,True
+24013,Bourassa,QC,BQ,17.1,6206,True
+24013,Bourassa,QC,CPC,16.3,5905,True
+24013,Bourassa,QC,NDP,5.9,2137,True
+24013,Bourassa,QC,PPC,1.2,433,True
+24014,Brome—Missisquoi,QC,LPC,48.3,34727,True
+24014,Brome—Missisquoi,QC,BQ,28.0,20182,True
+24014,Brome—Missisquoi,QC,CPC,19.1,13743,True
+24014,Brome—Missisquoi,QC,NDP,2.2,1600,True
+24014,Brome—Missisquoi,QC,GPC,1.6,1139,True
+24014,Brome—Missisquoi,QC,PPC,0.8,561,True
+24015,Brossard—Saint-Lambert,QC,LPC,62.2,36541,True
+24015,Brossard—Saint-Lambert,QC,CPC,18.9,11076,True
+24015,Brossard—Saint-Lambert,QC,BQ,13.3,7837,True
+24015,Brossard—Saint-Lambert,QC,NDP,3.5,2049,True
+24015,Brossard—Saint-Lambert,QC,GPC,1.5,855,True
+24015,Brossard—Saint-Lambert,QC,PPC,0.6,381,True
+24016,Charlesbourg—Haute-Saint-Charles,QC,CPC,42.4,27698,True
+24016,Charlesbourg—Haute-Saint-Charles,QC,LPC,34.6,22597,True
+24016,Charlesbourg—Haute-Saint-Charles,QC,BQ,18.9,12346,True
+24016,Charlesbourg—Haute-Saint-Charles,QC,NDP,2.7,1752,True
+24016,Charlesbourg—Haute-Saint-Charles,QC,PPC,0.8,516,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,LPC,45.2,28224,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,BQ,29.1,18160,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,CPC,21.7,13538,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,NDP,2.2,1377,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,GPC,1.2,773,True
+24017,Châteauguay—Les Jardins-de-Napierville,QC,PPC,0.7,429,True
+24018,Chicoutimi—Le Fjord,QC,CPC,34.1,17356,True
+24018,Chicoutimi—Le Fjord,QC,BQ,31.2,15857,True
+24018,Chicoutimi—Le Fjord,QC,LPC,31.1,15820,True
+24018,Chicoutimi—Le Fjord,QC,NDP,1.9,991,True
+24018,Chicoutimi—Le Fjord,QC,GPC,0.9,476,True
+24018,Chicoutimi—Le Fjord,QC,PPC,0.7,339,True
+24019,Compton—Stanstead,QC,LPC,45.6,29951,True
+24019,Compton—Stanstead,QC,BQ,26.4,17305,True
+24019,Compton—Stanstead,QC,CPC,21.8,14292,True
+24019,Compton—Stanstead,QC,NDP,3.2,2124,True
+24019,Compton—Stanstead,QC,GPC,1.8,1161,True
+24019,Compton—Stanstead,QC,PPC,1.2,787,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,CPC,45.8,28873,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,LPC,30.3,19097,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,BQ,20.0,12598,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,NDP,1.7,1072,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,GPC,1.1,682,True
+24020,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,QC,PPC,0.7,464,True
+24021,Côte-Nord—Kawawachikamach—Nitassinan,QC,BQ,43.7,16243,True
+24021,Côte-Nord—Kawawachikamach—Nitassinan,QC,LPC,27.4,10185,True
+24021,Côte-Nord—Kawawachikamach—Nitassinan,QC,CPC,25.2,9365,True
+24021,Côte-Nord—Kawawachikamach—Nitassinan,QC,NDP,1.7,640,True
+24022,Dorval—Lachine—LaSalle,QC,LPC,59.4,29927,True
+24022,Dorval—Lachine—LaSalle,QC,CPC,20.7,10428,True
+24022,Dorval—Lachine—LaSalle,QC,BQ,12.6,6338,True
+24022,Dorval—Lachine—LaSalle,QC,NDP,4.2,2104,True
+24022,Dorval—Lachine—LaSalle,QC,GPC,1.6,823,True
+24022,Dorval—Lachine—LaSalle,QC,PPC,0.9,478,True
+24023,Drummond,QC,BQ,42.8,24071,True
+24023,Drummond,QC,LPC,28.4,15998,True
+24023,Drummond,QC,CPC,22.7,12790,True
+24023,Drummond,QC,NDP,4.6,2607,True
+24023,Drummond,QC,PPC,1.4,773,True
+24024,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,QC,BQ,45.8,26091,True
+24024,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,QC,LPC,38.3,21817,True
+24024,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,QC,CPC,12.4,7047,True
+24024,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,QC,NDP,1.8,1005,True
+24024,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,QC,PPC,0.8,452,True
+24025,Gatineau,QC,LPC,60.5,34751,True
+24025,Gatineau,QC,CPC,19.1,10982,True
+24025,Gatineau,QC,BQ,16.3,9373,True
+24025,Gatineau,QC,NDP,2.8,1615,True
+24025,Gatineau,QC,PPC,0.9,505,True
+24026,Hochelaga—Rosemont-Est,QC,LPC,46.1,23601,True
+24026,Hochelaga—Rosemont-Est,QC,BQ,27.2,13902,True
+24026,Hochelaga—Rosemont-Est,QC,NDP,13.0,6671,True
+24026,Hochelaga—Rosemont-Est,QC,CPC,10.6,5402,True
+24026,Hochelaga—Rosemont-Est,QC,GPC,2.6,1329,True
+24027,Honoré-Mercier,QC,LPC,60.2,29947,True
+24027,Honoré-Mercier,QC,CPC,21.5,10692,True
+24027,Honoré-Mercier,QC,BQ,12.9,6435,True
+24027,Honoré-Mercier,QC,NDP,3.6,1787,True
+24027,Honoré-Mercier,QC,GPC,1.1,568,True
+24027,Honoré-Mercier,QC,PPC,0.7,351,True
+24028,Hull—Aylmer,QC,LPC,62.1,31978,True
+24028,Hull—Aylmer,QC,CPC,16.9,8727,True
+24028,Hull—Aylmer,QC,BQ,12.1,6248,True
+24028,Hull—Aylmer,QC,NDP,5.5,2855,True
+24028,Hull—Aylmer,QC,GPC,2.2,1130,True
+24028,Hull—Aylmer,QC,PPC,0.7,341,True
+24029,Joliette—Manawan,QC,BQ,49.3,28196,True
+24029,Joliette—Manawan,QC,LPC,31.3,17890,True
+24029,Joliette—Manawan,QC,CPC,15.2,8721,True
+24029,Joliette—Manawan,QC,NDP,2.5,1408,True
+24029,Joliette—Manawan,QC,GPC,1.8,1014,True
+24030,Jonquière,QC,BQ,40.0,20247,True
+24030,Jonquière,QC,CPC,30.2,15314,True
+24030,Jonquière,QC,LPC,26.0,13172,True
+24030,Jonquière,QC,NDP,1.8,932,True
+24030,Jonquière,QC,PPC,1.0,516,True
+24030,Jonquière,QC,GPC,0.9,448,True
+24031,La Pointe-de-l'Île,QC,BQ,43.1,22940,True
+24031,La Pointe-de-l'Île,QC,LPC,37.7,20051,True
+24031,La Pointe-de-l'Île,QC,CPC,12.7,6781,True
+24031,La Pointe-de-l'Île,QC,NDP,4.3,2279,True
+24031,La Pointe-de-l'Île,QC,GPC,1.8,977,True
+24032,La Prairie—Atateken,QC,LPC,44.1,29418,True
+24032,La Prairie—Atateken,QC,BQ,34.8,23232,True
+24032,La Prairie—Atateken,QC,CPC,17.2,11505,True
+24032,La Prairie—Atateken,QC,NDP,2.4,1588,True
+24032,La Prairie—Atateken,QC,GPC,1.0,657,True
+24032,La Prairie—Atateken,QC,PPC,0.5,361,True
+24033,Lac-Saint-Jean,QC,BQ,46.2,22069,True
+24033,Lac-Saint-Jean,QC,LPC,26.3,12536,True
+24033,Lac-Saint-Jean,QC,CPC,24.7,11792,True
+24033,Lac-Saint-Jean,QC,NDP,1.7,819,True
+24033,Lac-Saint-Jean,QC,PPC,1.1,540,True
+24034,Lac-Saint-Louis,QC,LPC,67.6,43446,True
+24034,Lac-Saint-Louis,QC,CPC,23.7,15203,True
+24034,Lac-Saint-Louis,QC,BQ,3.6,2330,True
+24034,Lac-Saint-Louis,QC,NDP,2.9,1877,True
+24034,Lac-Saint-Louis,QC,GPC,1.4,915,True
+24034,Lac-Saint-Louis,QC,PPC,0.7,471,True
+24035,LaSalle—Émard—Verdun,QC,LPC,50.9,27439,True
+24035,LaSalle—Émard—Verdun,QC,BQ,21.3,11467,True
+24035,LaSalle—Émard—Verdun,QC,CPC,13.8,7456,True
+24035,LaSalle—Émard—Verdun,QC,NDP,10.4,5587,True
+24035,LaSalle—Émard—Verdun,QC,GPC,2.4,1298,True
+24035,LaSalle—Émard—Verdun,QC,PPC,0.5,260,True
+24036,Laurentides—Labelle,QC,BQ,44.6,23615,True
+24036,Laurentides—Labelle,QC,LPC,34.9,18514,True
+24036,Laurentides—Labelle,QC,CPC,14.9,7900,True
+24036,Laurentides—Labelle,QC,NDP,2.5,1341,True
+24036,Laurentides—Labelle,QC,GPC,1.6,864,True
+24036,Laurentides—Labelle,QC,PPC,1.4,749,True
+24037,Laurier—Sainte-Marie,QC,LPC,52.1,27286,True
+24037,Laurier—Sainte-Marie,QC,NDP,18.8,9856,True
+24037,Laurier—Sainte-Marie,QC,BQ,15.4,8079,True
+24037,Laurier—Sainte-Marie,QC,CPC,9.2,4796,True
+24037,Laurier—Sainte-Marie,QC,GPC,2.8,1452,True
+24037,Laurier—Sainte-Marie,QC,PPC,0.5,253,True
+24038,Laval—Les Îles,QC,LPC,49.7,28302,True
+24038,Laval—Les Îles,QC,CPC,32.2,18355,True
+24038,Laval—Les Îles,QC,BQ,14.6,8298,True
+24038,Laval—Les Îles,QC,NDP,3.4,1961,True
+24039,Les Pays-d'en-Haut,QC,LPC,41.0,26967,True
+24039,Les Pays-d'en-Haut,QC,BQ,36.1,23750,True
+24039,Les Pays-d'en-Haut,QC,CPC,18.0,11816,True
+24039,Les Pays-d'en-Haut,QC,NDP,2.3,1493,True
+24039,Les Pays-d'en-Haut,QC,GPC,1.6,1038,True
+24039,Les Pays-d'en-Haut,QC,PPC,1.0,639,True
+24040,Lévis—Lotbinière,QC,CPC,47.7,33312,True
+24040,Lévis—Lotbinière,QC,LPC,29.4,20549,True
+24040,Lévis—Lotbinière,QC,BQ,19.5,13627,True
+24040,Lévis—Lotbinière,QC,NDP,2.3,1635,True
+24040,Lévis—Lotbinière,QC,PPC,1.0,698,True
+24041,Longueuil—Charles-LeMoyne,QC,LPC,49.4,25138,True
+24041,Longueuil—Charles-LeMoyne,QC,BQ,26.7,13583,True
+24041,Longueuil—Charles-LeMoyne,QC,CPC,16.8,8547,True
+24041,Longueuil—Charles-LeMoyne,QC,NDP,5.6,2832,True
+24041,Longueuil—Charles-LeMoyne,QC,PPC,0.8,411,True
+24042,Longueuil—Saint-Hubert,QC,LPC,41.0,24237,True
+24042,Longueuil—Saint-Hubert,QC,BQ,39.7,23468,True
+24042,Longueuil—Saint-Hubert,QC,CPC,14.3,8447,True
+24042,Longueuil—Saint-Hubert,QC,NDP,5.0,2986,True
+24043,Louis-Hébert,QC,LPC,55.4,33512,True
+24043,Louis-Hébert,QC,BQ,21.3,12897,True
+24043,Louis-Hébert,QC,CPC,20.1,12164,True
+24043,Louis-Hébert,QC,NDP,2.5,1540,True
+24043,Louis-Hébert,QC,PPC,0.5,332,True
+24044,Louis-Saint-Laurent—Akiawenhrahk,QC,CPC,44.9,29525,True
+24044,Louis-Saint-Laurent—Akiawenhrahk,QC,LPC,33.0,21693,True
+24044,Louis-Saint-Laurent—Akiawenhrahk,QC,BQ,18.9,12465,True
+24044,Louis-Saint-Laurent—Akiawenhrahk,QC,NDP,2.4,1607,True
+24044,Louis-Saint-Laurent—Akiawenhrahk,QC,PPC,0.8,527,True
+24045,Marc-Aurèle-Fortin,QC,LPC,52.0,29928,True
+24045,Marc-Aurèle-Fortin,QC,BQ,23.6,13584,True
+24045,Marc-Aurèle-Fortin,QC,CPC,20.7,11923,True
+24045,Marc-Aurèle-Fortin,QC,NDP,3.7,2128,True
+24046,Mégantic—L’Érable—Lotbinière,QC,CPC,58.8,34470,True
+24046,Mégantic—L’Érable—Lotbinière,QC,LPC,21.5,12594,True
+24046,Mégantic—L’Érable—Lotbinière,QC,BQ,16.4,9607,True
+24046,Mégantic—L’Érable—Lotbinière,QC,NDP,1.8,1066,True
+24046,Mégantic—L’Érable—Lotbinière,QC,PPC,1.2,717,True
+24047,Mirabel,QC,BQ,39.9,22494,True
+24047,Mirabel,QC,LPC,33.4,18796,True
+24047,Mirabel,QC,CPC,22.3,12544,True
+24047,Mirabel,QC,NDP,2.4,1333,True
+24047,Mirabel,QC,GPC,1.4,792,True
+24047,Mirabel,QC,PPC,0.7,400,True
+24048,Mount Royal,QC,LPC,51.1,25544,True
+24048,Mount Royal,QC,CPC,40.5,20244,True
+24048,Mount Royal,QC,NDP,4.7,2353,True
+24048,Mount Royal,QC,BQ,3.3,1671,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,LPC,47.1,32149,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,BQ,35.1,23947,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,CPC,13.7,9335,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,NDP,2.3,1590,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,GPC,1.2,833,True
+24049,Mont-Saint-Bruno—L’Acadie,QC,PPC,0.6,397,True
+24050,Montcalm,QC,BQ,46.6,27268,True
+24050,Montcalm,QC,LPC,26.9,15769,True
+24050,Montcalm,QC,CPC,23.2,13589,True
+24050,Montcalm,QC,NDP,3.2,1893,True
+24051,Montmorency—Charlevoix,QC,CPC,34.5,20494,True
+24051,Montmorency—Charlevoix,QC,BQ,33.6,19970,True
+24051,Montmorency—Charlevoix,QC,LPC,28.8,17101,True
+24051,Montmorency—Charlevoix,QC,NDP,1.5,905,True
+24051,Montmorency—Charlevoix,QC,GPC,1.0,580,True
+24051,Montmorency—Charlevoix,QC,PPC,0.6,357,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,LPC,64.0,34226,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,CPC,19.7,10517,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,NDP,7.4,3956,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,BQ,5.0,2652,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,GPC,2.5,1331,True
+24052,Notre-Dame-de-Grâce—Westmount,QC,PPC,0.5,256,True
+24053,Outremont,QC,LPC,55.2,26024,True
+24053,Outremont,QC,CPC,12.5,5911,True
+24053,Outremont,QC,BQ,12.0,5644,True
+24053,Outremont,QC,NDP,10.7,5024,True
+24053,Outremont,QC,GPC,9.6,4539,True
+24054,Papineau,QC,LPC,53.0,24700,True
+24054,Papineau,QC,BQ,16.6,7726,True
+24054,Papineau,QC,NDP,16.3,7606,True
+24054,Papineau,QC,CPC,10.6,4927,True
+24054,Papineau,QC,PPC,1.0,455,True
+24055,Pierre-Boucher—Les Patriotes—Verchères,QC,BQ,46.1,28765,True
+24055,Pierre-Boucher—Les Patriotes—Verchères,QC,LPC,38.8,24217,True
+24055,Pierre-Boucher—Les Patriotes—Verchères,QC,CPC,11.8,7375,True
+24055,Pierre-Boucher—Les Patriotes—Verchères,QC,NDP,2.5,1541,True
+24055,Pierre-Boucher—Les Patriotes—Verchères,QC,PPC,0.8,528,True
+24056,Pierrefonds—Dollard,QC,LPC,60.1,34326,True
+24056,Pierrefonds—Dollard,QC,CPC,30.5,17453,True
+24056,Pierrefonds—Dollard,QC,BQ,5.4,3097,True
+24056,Pierrefonds—Dollard,QC,NDP,2.8,1613,True
+24056,Pierrefonds—Dollard,QC,PPC,0.6,333,True
+24057,Pontiac—Kitigan Zibi,QC,LPC,54.6,32088,True
+24057,Pontiac—Kitigan Zibi,QC,CPC,27.6,16221,True
+24057,Pontiac—Kitigan Zibi,QC,BQ,10.3,6071,True
+24057,Pontiac—Kitigan Zibi,QC,NDP,5.1,2971,True
+24057,Pontiac—Kitigan Zibi,QC,GPC,1.3,749,True
+24057,Pontiac—Kitigan Zibi,QC,PPC,1.1,673,True
+24058,Portneuf—Jacques-Cartier,QC,CPC,49.6,32184,True
+24058,Portneuf—Jacques-Cartier,QC,LPC,29.0,18865,True
+24058,Portneuf—Jacques-Cartier,QC,BQ,17.9,11606,True
+24058,Portneuf—Jacques-Cartier,QC,NDP,1.6,1034,True
+24058,Portneuf—Jacques-Cartier,QC,GPC,1.1,728,True
+24058,Portneuf—Jacques-Cartier,QC,PPC,0.8,524,True
+24059,Québec Centre,QC,LPC,49.5,27880,True
+24059,Québec Centre,QC,BQ,35.9,20203,True
+24059,Québec Centre,QC,NDP,7.8,4400,True
+24059,Québec Centre,QC,PPC,5.0,2818,True
+24060,Repentigny,QC,BQ,42.2,26593,True
+24060,Repentigny,QC,LPC,38.8,24419,True
+24060,Repentigny,QC,CPC,15.2,9583,True
+24060,Repentigny,QC,NDP,2.7,1722,True
+24060,Repentigny,QC,PPC,0.6,384,True
+24061,Richmond—Arthabaska,QC,CPC,35.5,22206,True
+24061,Richmond—Arthabaska,QC,LPC,33.0,20629,True
+24061,Richmond—Arthabaska,QC,BQ,27.3,17095,True
+24061,Richmond—Arthabaska,QC,NDP,2.0,1248,True
+24061,Richmond—Arthabaska,QC,PPC,1.1,707,True
+24062,Rimouski—La Matapédia,QC,BQ,46.2,24947,True
+24062,Rimouski—La Matapédia,QC,LPC,35.5,19201,True
+24062,Rimouski—La Matapédia,QC,CPC,13.6,7324,True
+24062,Rimouski—La Matapédia,QC,NDP,1.8,974,True
+24062,Rimouski—La Matapédia,QC,PPC,0.6,338,True
+24063,Rivière-des-Mille-Îles,QC,LPC,45.6,27326,True
+24063,Rivière-des-Mille-Îles,QC,BQ,32.8,19669,True
+24063,Rivière-des-Mille-Îles,QC,CPC,17.4,10398,True
+24063,Rivière-des-Mille-Îles,QC,NDP,2.1,1270,True
+24063,Rivière-des-Mille-Îles,QC,GPC,1.2,734,True
+24063,Rivière-des-Mille-Îles,QC,PPC,0.5,306,True
+24064,Rivière-du-Nord,QC,BQ,43.8,25438,True
+24064,Rivière-du-Nord,QC,LPC,31.6,18345,True
+24064,Rivière-du-Nord,QC,CPC,21.0,12203,True
+24064,Rivière-du-Nord,QC,NDP,3.5,2032,True
+24065,Rosemont—La Petite-Patrie,QC,NDP,41.0,24358,True
+24065,Rosemont—La Petite-Patrie,QC,LPC,31.6,18757,True
+24065,Rosemont—La Petite-Patrie,QC,BQ,18.3,10864,True
+24065,Rosemont—La Petite-Patrie,QC,CPC,6.9,4073,True
+24065,Rosemont—La Petite-Patrie,QC,GPC,2.3,1368,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,BQ,43.9,25447,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,LPC,33.6,19504,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,CPC,18.0,10431,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,NDP,2.4,1373,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,GPC,1.4,800,True
+24066,Saint-Hyacinthe—Bagot—Acton,QC,PPC,0.7,431,True
+24067,Saint-Jean,QC,BQ,44.3,28474,True
+24067,Saint-Jean,QC,LPC,34.3,21999,True
+24067,Saint-Jean,QC,CPC,16.3,10480,True
+24067,Saint-Jean,QC,NDP,2.6,1650,True
+24067,Saint-Jean,QC,GPC,1.5,988,True
+24067,Saint-Jean,QC,PPC,1.0,624,True
+24068,Saint-Laurent,QC,LPC,58.9,26021,True
+24068,Saint-Laurent,QC,CPC,28.2,12477,True
+24068,Saint-Laurent,QC,BQ,5.7,2523,True
+24068,Saint-Laurent,QC,NDP,4.5,1985,True
+24068,Saint-Laurent,QC,GPC,1.6,693,True
+24068,Saint-Laurent,QC,PPC,0.8,349,True
+24069,Saint-Léonard—Saint-Michel,QC,LPC,65.3,26833,True
+24069,Saint-Léonard—Saint-Michel,QC,CPC,20.6,8457,True
+24069,Saint-Léonard—Saint-Michel,QC,BQ,7.2,2938,True
+24069,Saint-Léonard—Saint-Michel,QC,NDP,6.0,2450,True
+24069,Saint-Léonard—Saint-Michel,QC,PPC,0.9,388,True
+24070,Saint-Maurice—Champlain,QC,LPC,50.0,31095,True
+24070,Saint-Maurice—Champlain,QC,CPC,24.6,15321,True
+24070,Saint-Maurice—Champlain,QC,BQ,21.2,13190,True
+24070,Saint-Maurice—Champlain,QC,NDP,2.0,1224,True
+24070,Saint-Maurice—Champlain,QC,GPC,1.1,704,True
+24070,Saint-Maurice—Champlain,QC,PPC,0.7,455,True
+24071,Shefford,QC,BQ,40.1,26726,True
+24071,Shefford,QC,LPC,39.3,26155,True
+24071,Shefford,QC,CPC,17.1,11404,True
+24071,Shefford,QC,NDP,2.3,1557,True
+24071,Shefford,QC,PPC,1.2,789,True
+24072,Sherbrooke,QC,LPC,51.3,31249,True
+24072,Sherbrooke,QC,BQ,26.6,16224,True
+24072,Sherbrooke,QC,CPC,13.1,7983,True
+24072,Sherbrooke,QC,NDP,5.8,3516,True
+24072,Sherbrooke,QC,GPC,2.3,1383,True
+24072,Sherbrooke,QC,PPC,0.9,576,True
+24074,Thérèse-De Blainville,QC,LPC,45.8,29519,True
+24074,Thérèse-De Blainville,QC,BQ,32.3,20828,True
+24074,Thérèse-De Blainville,QC,CPC,18.7,12019,True
+24074,Thérèse-De Blainville,QC,NDP,2.5,1585,True
+24074,Thérèse-De Blainville,QC,PPC,0.7,446,True
+24075,Trois-Rivières,QC,LPC,41.0,25147,True
+24075,Trois-Rivières,QC,BQ,27.6,16921,True
+24075,Trois-Rivières,QC,CPC,27.2,16708,True
+24075,Trois-Rivières,QC,NDP,2.3,1437,True
+24075,Trois-Rivières,QC,GPC,0.9,569,True
+24075,Trois-Rivières,QC,PPC,0.5,320,True
+24076,Vaudreuil,QC,LPC,57.9,40982,True
+24076,Vaudreuil,QC,CPC,22.8,16179,True
+24076,Vaudreuil,QC,BQ,14.9,10571,True
+24076,Vaudreuil,QC,NDP,2.3,1602,True
+24076,Vaudreuil,QC,GPC,1.4,957,True
+24076,Vaudreuil,QC,PPC,0.7,527,True
+24077,Ville-Marie—Le Sud-Ouest—Île-des-Soeurs,QC,LPC,63.7,30905,True
+24077,Ville-Marie—Le Sud-Ouest—Île-des-Soeurs,QC,CPC,18.8,9113,True
+24077,Ville-Marie—Le Sud-Ouest—Île-des-Soeurs,QC,BQ,9.0,4364,True
+24077,Ville-Marie—Le Sud-Ouest—Île-des-Soeurs,QC,NDP,6.0,2932,True
+24077,Ville-Marie—Le Sud-Ouest—Île-des-Soeurs,QC,GPC,2.1,996,True
+24078,Vimy,QC,LPC,53.4,26531,True
+24078,Vimy,QC,CPC,24.7,12278,True
+24078,Vimy,QC,BQ,17.2,8526,True
+24078,Vimy,QC,NDP,4.7,2342,True
+35001,Ajax,ON,LPC,56.3,36975,True
+35001,Ajax,ON,CPC,39.1,25658,True
+35001,Ajax,ON,NDP,2.7,1762,True
+35001,Ajax,ON,GPC,0.9,612,True
+35002,Algonquin—Renfrew—Pembroke,ON,CPC,55.7,37333,True
+35002,Algonquin—Renfrew—Pembroke,ON,LPC,37.8,25338,True
+35002,Algonquin—Renfrew—Pembroke,ON,NDP,3.7,2469,True
+35002,Algonquin—Renfrew—Pembroke,ON,GPC,0.9,618,True
+35003,Aurora—Oak Ridges—Richmond Hill,ON,CPC,54.7,34023,True
+35003,Aurora—Oak Ridges—Richmond Hill,ON,LPC,42.8,26590,True
+35003,Aurora—Oak Ridges—Richmond Hill,ON,NDP,1.3,835,True
+35003,Aurora—Oak Ridges—Richmond Hill,ON,GPC,0.7,465,True
+35003,Aurora—Oak Ridges—Richmond Hill,ON,PPC,0.4,256,True
+35004,Barrie South—Innisfil,ON,CPC,57.8,38943,True
+35004,Barrie South—Innisfil,ON,LPC,38.0,25557,True
+35004,Barrie South—Innisfil,ON,NDP,3.2,2130,True
+35004,Barrie South—Innisfil,ON,PPC,1.0,695,True
+35005,Barrie—Springwater—Oro-Medonte,ON,CPC,51.7,33949,True
+35005,Barrie—Springwater—Oro-Medonte,ON,LPC,44.4,29150,True
+35005,Barrie—Springwater—Oro-Medonte,ON,NDP,2.4,1559,True
+35005,Barrie—Springwater—Oro-Medonte,ON,GPC,1.4,893,True
+35006,Bay of Quinte,ON,LPC,50.4,32846,True
+35006,Bay of Quinte,ON,CPC,44.7,29130,True
+35006,Bay of Quinte,ON,NDP,3.6,2373,True
+35006,Bay of Quinte,ON,GPC,1.3,833,True
+35007,Beaches—East York,ON,LPC,67.7,39804,True
+35007,Beaches—East York,ON,CPC,23.5,13830,True
+35007,Beaches—East York,ON,NDP,6.9,4027,True
+35007,Beaches—East York,ON,GPC,1.3,748,True
+35008,Bowmanville—Oshawa North,ON,CPC,49.8,35232,True
+35008,Bowmanville—Oshawa North,ON,LPC,45.5,32214,True
+35008,Bowmanville—Oshawa North,ON,NDP,2.9,2032,True
+35008,Bowmanville—Oshawa North,ON,GPC,0.8,546,True
+35009,Brampton Centre,ON,LPC,48.4,19716,True
+35009,Brampton Centre,ON,CPC,46.9,19105,True
+35009,Brampton Centre,ON,NDP,2.7,1085,True
+35009,Brampton Centre,ON,GPC,1.2,469,True
+35009,Brampton Centre,ON,PPC,0.7,288,True
+35010,Brampton—Chinguacousy Park,ON,LPC,48.8,21532,True
+35010,Brampton—Chinguacousy Park,ON,CPC,44.4,19591,True
+35010,Brampton—Chinguacousy Park,ON,NDP,2.7,1173,True
+35010,Brampton—Chinguacousy Park,ON,PPC,1.7,741,True
+35010,Brampton—Chinguacousy Park,ON,GPC,1.2,521,True
+35011,Brampton East,ON,LPC,48.6,23616,True
+35011,Brampton East,ON,CPC,44.7,21731,True
+35011,Brampton East,ON,PPC,4.7,2305,True
+35011,Brampton East,ON,NDP,1.7,821,True
+35012,Brampton North—Caledon,ON,LPC,49.0,22847,True
+35012,Brampton North—Caledon,ON,CPC,47.4,22105,True
+35012,Brampton North—Caledon,ON,NDP,2.2,1008,True
+35012,Brampton North—Caledon,ON,PPC,1.4,635,True
+35013,Brampton South,ON,LPC,49.3,22001,True
+35013,Brampton South,ON,CPC,47.5,21193,True
+35013,Brampton South,ON,NDP,1.7,777,True
+35013,Brampton South,ON,PPC,0.8,358,True
+35014,Brampton West,ON,CPC,49.8,21112,True
+35014,Brampton West,ON,LPC,47.6,20194,True
+35014,Brampton West,ON,NDP,1.7,708,True
+35014,Brampton West,ON,GPC,0.7,278,True
+35015,Brantford—Brant South—Six Nations,ON,CPC,52.4,34501,True
+35015,Brantford—Brant South—Six Nations,ON,LPC,41.1,27032,True
+35015,Brantford—Brant South—Six Nations,ON,NDP,3.7,2410,True
+35015,Brantford—Brant South—Six Nations,ON,GPC,1.7,1110,True
+35015,Brantford—Brant South—Six Nations,ON,PPC,0.6,392,True
+35016,Bruce—Grey—Owen Sound,ON,CPC,53.0,35484,True
+35016,Bruce—Grey—Owen Sound,ON,LPC,40.1,26837,True
+35016,Bruce—Grey—Owen Sound,ON,NDP,3.1,2069,True
+35016,Bruce—Grey—Owen Sound,ON,GPC,2.2,1447,True
+35016,Bruce—Grey—Owen Sound,ON,PPC,0.8,520,True
+35017,Burlington,ON,LPC,55.8,43593,True
+35017,Burlington,ON,CPC,40.6,31686,True
+35017,Burlington,ON,NDP,2.0,1549,True
+35017,Burlington,ON,GPC,0.8,595,True
+35017,Burlington,ON,PPC,0.7,523,True
+35018,Burlington North—Milton West,ON,LPC,52.7,37155,True
+35018,Burlington North—Milton West,ON,CPC,44.3,31172,True
+35018,Burlington North—Milton West,ON,NDP,2.1,1507,True
+35018,Burlington North—Milton West,ON,PPC,0.9,607,True
+35019,Cambridge,ON,CPC,48.6,31766,True
+35019,Cambridge,ON,LPC,46.3,30309,True
+35019,Cambridge,ON,NDP,3.3,2183,True
+35019,Cambridge,ON,GPC,1.6,1052,True
+35020,Carleton,ON,LPC,50.9,43846,True
+35020,Carleton,ON,CPC,45.7,39333,True
+35020,Carleton,ON,NDP,1.4,1221,True
+35020,Carleton,ON,GPC,0.7,561,True
+35021,Chatham-Kent—Leamington,ON,CPC,57.5,41612,True
+35021,Chatham-Kent—Leamington,ON,LPC,35.9,25978,True
+35021,Chatham-Kent—Leamington,ON,NDP,4.1,2943,True
+35021,Chatham-Kent—Leamington,ON,PPC,1.5,1061,True
+35021,Chatham-Kent—Leamington,ON,GPC,1.0,757,True
+35022,Davenport,ON,LPC,57.8,35364,True
+35022,Davenport,ON,CPC,23.2,14189,True
+35022,Davenport,ON,NDP,17.1,10452,True
+35022,Davenport,ON,GPC,1.3,782,True
+35023,Don Valley North,ON,LPC,53.2,25822,True
+35023,Don Valley North,ON,CPC,42.3,20546,True
+35023,Don Valley North,ON,NDP,2.5,1191,True
+35023,Don Valley North,ON,GPC,0.9,448,True
+35023,Don Valley North,ON,PPC,0.5,260,True
+35024,Don Valley West,ON,LPC,62.6,36744,True
+35024,Don Valley West,ON,CPC,33.2,19480,True
+35024,Don Valley West,ON,NDP,2.4,1382,True
+35024,Don Valley West,ON,GPC,1.1,616,True
+35025,Dufferin—Caledon,ON,CPC,60.1,42458,True
+35025,Dufferin—Caledon,ON,LPC,35.2,24818,True
+35025,Dufferin—Caledon,ON,NDP,2.0,1380,True
+35025,Dufferin—Caledon,ON,GPC,1.3,927,True
+35025,Dufferin—Caledon,ON,PPC,1.1,752,True
+35026,Eglinton—Lawrence,ON,LPC,49.3,29949,True
+35026,Eglinton—Lawrence,ON,CPC,47.8,29061,True
+35026,Eglinton—Lawrence,ON,NDP,1.6,996,True
+35026,Eglinton—Lawrence,ON,GPC,0.7,429,True
+35026,Eglinton—Lawrence,ON,PPC,0.5,326,True
+35027,Elgin—St. Thomas—London South,ON,CPC,50.1,32565,True
+35027,Elgin—St. Thomas—London South,ON,LPC,43.1,28010,True
+35027,Elgin—St. Thomas—London South,ON,NDP,4.8,3118,True
+35027,Elgin—St. Thomas—London South,ON,PPC,1.9,1256,True
+35028,Essex,ON,CPC,57.5,46123,True
+35028,Essex,ON,LPC,36.7,29389,True
+35028,Essex,ON,NDP,4.8,3826,True
+35028,Essex,ON,PPC,1.1,843,True
+35029,Etobicoke Centre,ON,LPC,53.6,36186,True
+35029,Etobicoke Centre,ON,CPC,44.0,29713,True
+35029,Etobicoke Centre,ON,NDP,2.4,1611,True
+35030,Etobicoke—Lakeshore,ON,LPC,57.4,37512,True
+35030,Etobicoke—Lakeshore,ON,CPC,38.8,25348,True
+35030,Etobicoke—Lakeshore,ON,NDP,2.5,1665,True
+35030,Etobicoke—Lakeshore,ON,PPC,0.9,616,True
+35031,Etobicoke North,ON,LPC,52.6,22270,True
+35031,Etobicoke North,ON,CPC,41.0,17359,True
+35031,Etobicoke North,ON,NDP,3.2,1354,True
+35031,Etobicoke North,ON,PPC,2.0,846,True
+35031,Etobicoke North,ON,GPC,0.9,394,True
+35032,Flamborough—Glanbrook—Brant North,ON,CPC,52.7,35246,True
+35032,Flamborough—Glanbrook—Brant North,ON,LPC,43.2,28915,True
+35032,Flamborough—Glanbrook—Brant North,ON,NDP,2.4,1630,True
+35032,Flamborough—Glanbrook—Brant North,ON,GPC,0.9,594,True
+35032,Flamborough—Glanbrook—Brant North,ON,PPC,0.7,499,True
+35033,Guelph,ON,LPC,54.7,36406,True
+35033,Guelph,ON,CPC,30.7,20470,True
+35033,Guelph,ON,GPC,10.2,6779,True
+35033,Guelph,ON,NDP,3.2,2129,True
+35033,Guelph,ON,PPC,0.7,498,True
+35034,Haldimand—Norfolk,ON,CPC,57.6,41218,True
+35034,Haldimand—Norfolk,ON,LPC,36.4,26040,True
+35034,Haldimand—Norfolk,ON,NDP,3.4,2412,True
+35034,Haldimand—Norfolk,ON,GPC,1.0,750,True
+35034,Haldimand—Norfolk,ON,PPC,0.9,657,True
+35035,Haliburton—Kawartha Lakes,ON,CPC,56.6,42701,True
+35035,Haliburton—Kawartha Lakes,ON,LPC,38.7,29223,True
+35035,Haliburton—Kawartha Lakes,ON,NDP,3.5,2625,True
+35035,Haliburton—Kawartha Lakes,ON,PPC,1.3,954,True
+35036,Hamilton Centre,ON,LPC,37.6,21388,True
+35036,Hamilton Centre,ON,CPC,30.0,17079,True
+35036,Hamilton Centre,ON,NDP,29.1,16581,True
+35036,Hamilton Centre,ON,GPC,1.4,818,True
+35036,Hamilton Centre,ON,PPC,1.0,591,True
+35037,Hamilton East—Stoney Creek,ON,CPC,48.7,32857,True
+35037,Hamilton East—Stoney Creek,ON,LPC,46.5,31378,True
+35037,Hamilton East—Stoney Creek,ON,NDP,3.7,2471,True
+35037,Hamilton East—Stoney Creek,ON,PPC,1.1,762,True
+35038,Hamilton Mountain,ON,LPC,45.6,27302,True
+35038,Hamilton Mountain,ON,CPC,41.5,24857,True
+35038,Hamilton Mountain,ON,NDP,11.8,7044,True
+35038,Hamilton Mountain,ON,PPC,0.8,497,True
+35039,Hamilton West—Ancaster—Dundas,ON,LPC,56.1,38970,True
+35039,Hamilton West—Ancaster—Dundas,ON,CPC,36.8,25547,True
+35039,Hamilton West—Ancaster—Dundas,ON,NDP,5.3,3648,True
+35039,Hamilton West—Ancaster—Dundas,ON,GPC,1.2,829,True
+35039,Hamilton West—Ancaster—Dundas,ON,PPC,0.4,307,True
+35040,Hastings—Lennox and Addington—Tyendinaga,ON,CPC,54.3,36005,True
+35040,Hastings—Lennox and Addington—Tyendinaga,ON,LPC,40.4,26745,True
+35040,Hastings—Lennox and Addington—Tyendinaga,ON,NDP,3.5,2351,True
+35040,Hastings—Lennox and Addington—Tyendinaga,ON,GPC,1.2,803,True
+35040,Hastings—Lennox and Addington—Tyendinaga,ON,PPC,0.6,377,True
+35041,Humber River—Black Creek,ON,LPC,55.6,21357,True
+35041,Humber River—Black Creek,ON,CPC,35.8,13745,True
+35041,Humber River—Black Creek,ON,NDP,6.4,2449,True
+35041,Humber River—Black Creek,ON,PPC,1.6,621,True
+35042,Huron—Bruce,ON,CPC,53.2,37027,True
+35042,Huron—Bruce,ON,LPC,41.5,28936,True
+35042,Huron—Bruce,ON,NDP,3.3,2300,True
+35042,Huron—Bruce,ON,GPC,1.3,927,True
+35043,Kanata,ON,LPC,60.8,45244,True
+35043,Kanata,ON,CPC,35.7,26557,True
+35043,Kanata,ON,NDP,2.3,1702,True
+35043,Kanata,ON,GPC,1.1,835,True
+35044,Kapuskasing—Timmins—Mushkegowuk,ON,CPC,48.9,23062,True
+35044,Kapuskasing—Timmins—Mushkegowuk,ON,LPC,39.0,18366,True
+35044,Kapuskasing—Timmins—Mushkegowuk,ON,NDP,10.4,4895,True
+35044,Kapuskasing—Timmins—Mushkegowuk,ON,PPC,1.7,814,True
+35045,Kenora—Kiiwetinoong,ON,CPC,48.7,13109,True
+35045,Kenora—Kiiwetinoong,ON,LPC,35.2,9454,True
+35045,Kenora—Kiiwetinoong,ON,NDP,13.8,3698,True
+35045,Kenora—Kiiwetinoong,ON,GPC,1.1,286,True
+35045,Kenora—Kiiwetinoong,ON,PPC,0.8,204,True
+35046,Kingston and the Islands,ON,LPC,63.2,48682,True
+35046,Kingston and the Islands,ON,CPC,30.6,23592,True
+35046,Kingston and the Islands,ON,NDP,4.7,3648,True
+35046,Kingston and the Islands,ON,GPC,1.4,1071,True
+35047,King—Vaughan,ON,CPC,61.5,41682,True
+35047,King—Vaughan,ON,LPC,35.9,24352,True
+35047,King—Vaughan,ON,NDP,1.1,769,True
+35047,King—Vaughan,ON,GPC,0.9,576,True
+35047,King—Vaughan,ON,PPC,0.5,368,True
+35048,Kitchener Centre,ON,CPC,34.2,20234,True
+35048,Kitchener Centre,ON,GPC,33.6,19859,True
+35048,Kitchener Centre,ON,LPC,29.3,17292,True
+35048,Kitchener Centre,ON,NDP,2.0,1157,True
+35048,Kitchener Centre,ON,PPC,0.6,334,True
+35049,Kitchener—Conestoga,ON,LPC,48.3,30001,True
+35049,Kitchener—Conestoga,ON,CPC,47.5,29479,True
+35049,Kitchener—Conestoga,ON,NDP,2.9,1821,True
+35049,Kitchener—Conestoga,ON,PPC,1.3,786,True
+35050,Kitchener South—Hespeler,ON,CPC,47.9,28973,True
+35050,Kitchener South—Hespeler,ON,LPC,46.2,27945,True
+35050,Kitchener South—Hespeler,ON,NDP,3.0,1823,True
+35050,Kitchener South—Hespeler,ON,GPC,2.0,1208,True
+35050,Kitchener South—Hespeler,ON,PPC,0.6,386,True
+35051,Lanark—Frontenac,ON,CPC,50.4,34186,True
+35051,Lanark—Frontenac,ON,LPC,45.6,30900,True
+35051,Lanark—Frontenac,ON,NDP,2.9,1986,True
+35051,Lanark—Frontenac,ON,GPC,1.1,741,True
+35052,Leeds—Grenville—Thousand Islands—Rideau Lakes,ON,CPC,50.0,33437,True
+35052,Leeds—Grenville—Thousand Islands—Rideau Lakes,ON,LPC,44.4,29656,True
+35052,Leeds—Grenville—Thousand Islands—Rideau Lakes,ON,NDP,3.5,2341,True
+35052,Leeds—Grenville—Thousand Islands—Rideau Lakes,ON,GPC,1.2,781,True
+35052,Leeds—Grenville—Thousand Islands—Rideau Lakes,ON,PPC,0.9,596,True
+35053,London Centre,ON,LPC,56.7,33999,True
+35053,London Centre,ON,CPC,31.1,18633,True
+35053,London Centre,ON,NDP,9.7,5790,True
+35053,London Centre,ON,GPC,1.5,878,True
+35053,London Centre,ON,PPC,0.9,523,True
+35054,London—Fanshawe,ON,CPC,40.6,23749,True
+35054,London—Fanshawe,ON,LPC,30.5,17863,True
+35054,London—Fanshawe,ON,NDP,27.6,16135,True
+35054,London—Fanshawe,ON,PPC,1.3,776,True
+35055,London West,ON,LPC,56.2,35309,True
+35055,London West,ON,CPC,37.0,23239,True
+35055,London West,ON,NDP,5.5,3463,True
+35055,London West,ON,GPC,0.7,427,True
+35056,Markham—Stouffville,ON,LPC,51.4,31658,True
+35056,Markham—Stouffville,ON,CPC,45.3,27898,True
+35056,Markham—Stouffville,ON,NDP,1.8,1121,True
+35056,Markham—Stouffville,ON,GPC,0.7,433,True
+35056,Markham—Stouffville,ON,PPC,0.6,393,True
+35057,Markham—Thornhill,ON,LPC,54.5,27504,True
+35057,Markham—Thornhill,ON,CPC,41.6,21003,True
+35057,Markham—Thornhill,ON,NDP,2.0,1022,True
+35057,Markham—Thornhill,ON,PPC,1.5,747,True
+35058,Markham—Unionville,ON,CPC,50.7,27055,True
+35058,Markham—Unionville,ON,LPC,47.1,25133,True
+35058,Markham—Unionville,ON,NDP,1.4,723,True
+35058,Markham—Unionville,ON,GPC,0.9,503,True
+35059,Middlesex—London,ON,CPC,51.7,36093,True
+35059,Middlesex—London,ON,LPC,42.1,29400,True
+35059,Middlesex—London,ON,NDP,4.1,2888,True
+35059,Middlesex—London,ON,GPC,1.0,698,True
+35059,Middlesex—London,ON,PPC,0.8,577,True
+35060,Milton East—Halton Hills South,ON,LPC,48.3,32178,True
+35060,Milton East—Halton Hills South,ON,CPC,48.2,32157,True
+35060,Milton East—Halton Hills South,ON,NDP,1.5,1029,True
+35060,Milton East—Halton Hills South,ON,GPC,1.0,672,True
+35060,Milton East—Halton Hills South,ON,PPC,0.7,475,True
+35061,Mississauga Centre,ON,LPC,53.9,29605,True
+35061,Mississauga Centre,ON,CPC,41.9,23010,True
+35061,Mississauga Centre,ON,NDP,2.7,1502,True
+35061,Mississauga Centre,ON,PPC,1.1,602,True
+35062,Mississauga East—Cooksville,ON,LPC,50.2,27138,True
+35062,Mississauga East—Cooksville,ON,CPC,44.6,24112,True
+35062,Mississauga East—Cooksville,ON,NDP,2.8,1508,True
+35062,Mississauga East—Cooksville,ON,PPC,1.8,964,True
+35063,Mississauga—Erin Mills,ON,LPC,55.7,33448,True
+35063,Mississauga—Erin Mills,ON,CPC,40.0,24000,True
+35063,Mississauga—Erin Mills,ON,NDP,2.2,1311,True
+35063,Mississauga—Erin Mills,ON,PPC,1.2,734,True
+35063,Mississauga—Erin Mills,ON,GPC,0.6,367,True
+35064,Mississauga—Lakeshore,ON,LPC,52.4,34971,True
+35064,Mississauga—Lakeshore,ON,CPC,44.0,29416,True
+35064,Mississauga—Lakeshore,ON,NDP,1.9,1254,True
+35064,Mississauga—Lakeshore,ON,GPC,0.9,587,True
+35064,Mississauga—Lakeshore,ON,PPC,0.5,334,True
+35065,Mississauga—Malton,ON,LPC,53.3,26793,True
+35065,Mississauga—Malton,ON,CPC,42.2,21202,True
+35065,Mississauga—Malton,ON,NDP,2.6,1290,True
+35065,Mississauga—Malton,ON,PPC,2.0,983,True
+35066,Mississauga—Streetsville,ON,LPC,51.5,31297,True
+35066,Mississauga—Streetsville,ON,CPC,44.9,27241,True
+35066,Mississauga—Streetsville,ON,NDP,2.3,1388,True
+35066,Mississauga—Streetsville,ON,GPC,0.7,439,True
+35066,Mississauga—Streetsville,ON,PPC,0.6,366,True
+35067,Nepean,ON,LPC,63.8,46073,True
+35067,Nepean,ON,CPC,33.2,24017,True
+35067,Nepean,ON,NDP,2.0,1424,True
+35067,Nepean,ON,GPC,0.6,462,True
+35067,Nepean,ON,PPC,0.4,261,True
+35068,Newmarket—Aurora,ON,CPC,50.6,31540,True
+35068,Newmarket—Aurora,ON,LPC,47.0,29299,True
+35068,Newmarket—Aurora,ON,NDP,2.4,1473,True
+35069,New Tecumseth—Gwillimbury,ON,CPC,59.4,39247,True
+35069,New Tecumseth—Gwillimbury,ON,LPC,37.0,24444,True
+35069,New Tecumseth—Gwillimbury,ON,NDP,1.9,1226,True
+35069,New Tecumseth—Gwillimbury,ON,GPC,1.1,712,True
+35069,New Tecumseth—Gwillimbury,ON,PPC,0.8,496,True
+35070,Niagara Falls—Niagara-on-the-Lake,ON,CPC,49.1,29774,True
+35070,Niagara Falls—Niagara-on-the-Lake,ON,LPC,44.9,27199,True
+35070,Niagara Falls—Niagara-on-the-Lake,ON,NDP,3.9,2335,True
+35070,Niagara Falls—Niagara-on-the-Lake,ON,GPC,0.9,518,True
+35070,Niagara Falls—Niagara-on-the-Lake,ON,PPC,0.8,481,True
+35071,Niagara South,ON,CPC,47.8,36702,True
+35071,Niagara South,ON,LPC,43.9,33708,True
+35071,Niagara South,ON,NDP,5.6,4307,True
+35071,Niagara South,ON,PPC,1.5,1147,True
+35071,Niagara South,ON,GPC,0.9,683,True
+35072,Niagara West,ON,CPC,51.7,36418,True
+35072,Niagara West,ON,LPC,43.2,30424,True
+35072,Niagara West,ON,NDP,3.2,2262,True
+35072,Niagara West,ON,PPC,0.8,582,True
+35073,Nipissing—Timiskaming,ON,LPC,47.2,27674,True
+35073,Nipissing—Timiskaming,ON,CPC,44.6,26121,True
+35073,Nipissing—Timiskaming,ON,NDP,6.1,3548,True
+35073,Nipissing—Timiskaming,ON,PPC,1.1,648,True
+35073,Nipissing—Timiskaming,ON,GPC,1.0,585,True
+35074,Northumberland—Clarke,ON,CPC,49.0,34862,True
+35074,Northumberland—Clarke,ON,LPC,45.9,32648,True
+35074,Northumberland—Clarke,ON,NDP,2.9,2090,True
+35074,Northumberland—Clarke,ON,GPC,0.9,630,True
+35074,Northumberland—Clarke,ON,PPC,0.7,521,True
+35075,Oakville East,ON,LPC,51.1,31128,True
+35075,Oakville East,ON,CPC,44.8,27301,True
+35075,Oakville East,ON,NDP,2.8,1698,True
+35075,Oakville East,ON,GPC,0.6,351,True
+35075,Oakville East,ON,PPC,0.6,335,True
+35076,Oakville West,ON,LPC,53.1,31872,True
+35076,Oakville West,ON,CPC,44.4,26668,True
+35076,Oakville West,ON,NDP,1.4,831,True
+35076,Oakville West,ON,GPC,0.6,363,True
+35076,Oakville West,ON,PPC,0.4,254,True
+35077,Orléans,ON,LPC,67.4,53146,True
+35077,Orléans,ON,CPC,28.0,22072,True
+35077,Orléans,ON,NDP,2.6,2063,True
+35077,Orléans,ON,GPC,0.8,652,True
+35077,Orléans,ON,PPC,0.4,331,True
+35078,Oshawa,ON,CPC,48.2,32131,True
+35078,Oshawa,ON,LPC,43.0,28653,True
+35078,Oshawa,ON,NDP,7.7,5112,True
+35078,Oshawa,ON,GPC,1.2,804,True
+35079,Ottawa Centre,ON,LPC,62.7,51026,True
+35079,Ottawa Centre,ON,NDP,19.6,15935,True
+35079,Ottawa Centre,ON,CPC,15.6,12692,True
+35079,Ottawa Centre,ON,GPC,1.1,916,True
+35080,Ottawa South,ON,LPC,65.2,43388,True
+35080,Ottawa South,ON,CPC,27.1,18010,True
+35080,Ottawa South,ON,NDP,6.0,4017,True
+35080,Ottawa South,ON,GPC,1.0,642,True
+35081,Ottawa—Vanier—Gloucester,ON,LPC,67.4,45934,True
+35081,Ottawa—Vanier—Gloucester,ON,CPC,21.5,14633,True
+35081,Ottawa—Vanier—Gloucester,ON,NDP,7.6,5164,True
+35081,Ottawa—Vanier—Gloucester,ON,GPC,2.0,1345,True
+35081,Ottawa—Vanier—Gloucester,ON,PPC,0.5,349,True
+35082,Ottawa West—Nepean,ON,LPC,63.6,43555,True
+35082,Ottawa West—Nepean,ON,CPC,27.1,18517,True
+35082,Ottawa West—Nepean,ON,NDP,7.1,4847,True
+35082,Ottawa West—Nepean,ON,GPC,1.1,780,True
+35082,Ottawa West—Nepean,ON,PPC,0.8,514,True
+35083,Oxford,ON,CPC,53.4,38191,True
+35083,Oxford,ON,LPC,38.2,27311,True
+35083,Oxford,ON,NDP,4.3,3046,True
+35083,Oxford,ON,GPC,1.3,897,True
+35083,Oxford,ON,PPC,0.9,642,True
+35084,Parry Sound—Muskoka,ON,CPC,52.2,33742,True
+35084,Parry Sound—Muskoka,ON,LPC,42.6,27563,True
+35084,Parry Sound—Muskoka,ON,NDP,3.6,2300,True
+35084,Parry Sound—Muskoka,ON,PPC,1.6,1048,True
+35085,Perth—Wellington,ON,CPC,53.0,33972,True
+35085,Perth—Wellington,ON,LPC,40.8,26142,True
+35085,Perth—Wellington,ON,NDP,4.5,2909,True
+35085,Perth—Wellington,ON,PPC,1.7,1069,True
+35086,Peterborough,ON,LPC,54.3,42890,True
+35086,Peterborough,ON,CPC,41.0,32446,True
+35086,Peterborough,ON,NDP,3.0,2406,True
+35086,Peterborough,ON,GPC,0.8,655,True
+35086,Peterborough,ON,PPC,0.3,272,True
+35087,Pickering—Brooklin,ON,LPC,54.2,38578,True
+35087,Pickering—Brooklin,ON,CPC,41.2,29320,True
+35087,Pickering—Brooklin,ON,NDP,2.6,1838,True
+35087,Pickering—Brooklin,ON,PPC,0.9,639,True
+35087,Pickering—Brooklin,ON,GPC,0.8,535,True
+35088,Prescott—Russell—Cumberland,ON,LPC,54.8,39110,True
+35088,Prescott—Russell—Cumberland,ON,CPC,40.3,28805,True
+35088,Prescott—Russell—Cumberland,ON,NDP,2.4,1730,True
+35088,Prescott—Russell—Cumberland,ON,GPC,1.1,787,True
+35088,Prescott—Russell—Cumberland,ON,PPC,1.0,725,True
+35089,Richmond Hill South,ON,CPC,52.3,30615,True
+35089,Richmond Hill South,ON,LPC,44.4,26009,True
+35089,Richmond Hill South,ON,NDP,1.8,1054,True
+35089,Richmond Hill South,ON,GPC,0.8,495,True
+35089,Richmond Hill South,ON,PPC,0.4,244,True
+35090,Sarnia—Lambton—Bkejwanong,ON,CPC,53.1,40597,True
+35090,Sarnia—Lambton—Bkejwanong,ON,LPC,37.9,28940,True
+35090,Sarnia—Lambton—Bkejwanong,ON,NDP,5.4,4088,True
+35090,Sarnia—Lambton—Bkejwanong,ON,PPC,1.5,1136,True
+35091,Sault Ste. Marie—Algoma,ON,LPC,47.4,30936,True
+35091,Sault Ste. Marie—Algoma,ON,CPC,44.7,29208,True
+35091,Sault Ste. Marie—Algoma,ON,NDP,6.6,4327,True
+35091,Sault Ste. Marie—Algoma,ON,GPC,0.8,541,True
+35092,Scarborough—Agincourt,ON,LPC,54.3,27552,True
+35092,Scarborough—Agincourt,ON,CPC,42.8,21732,True
+35092,Scarborough—Agincourt,ON,NDP,2.9,1449,True
+35093,Scarborough Centre—Don Valley East,ON,LPC,57.3,27557,True
+35093,Scarborough Centre—Don Valley East,ON,CPC,38.1,18307,True
+35093,Scarborough Centre—Don Valley East,ON,NDP,3.3,1565,True
+35093,Scarborough Centre—Don Valley East,ON,PPC,1.4,659,True
+35094,Scarborough—Guildwood—Rouge Park,ON,LPC,64.0,35295,True
+35094,Scarborough—Guildwood—Rouge Park,ON,CPC,31.7,17485,True
+35094,Scarborough—Guildwood—Rouge Park,ON,NDP,3.2,1772,True
+35094,Scarborough—Guildwood—Rouge Park,ON,GPC,1.1,633,True
+35095,Scarborough North,ON,LPC,63.0,29418,True
+35095,Scarborough North,ON,CPC,33.1,15487,True
+35095,Scarborough North,ON,NDP,3.9,1827,True
+35096,Scarborough Southwest,ON,LPC,61.5,33495,True
+35096,Scarborough Southwest,ON,CPC,30.6,16652,True
+35096,Scarborough Southwest,ON,NDP,5.0,2730,True
+35096,Scarborough Southwest,ON,GPC,1.4,754,True
+35096,Scarborough Southwest,ON,PPC,1.0,567,True
+35097,Scarborough—Woburn,ON,LPC,60.4,25281,True
+35097,Scarborough—Woburn,ON,CPC,34.1,14291,True
+35097,Scarborough—Woburn,ON,NDP,3.5,1466,True
+35097,Scarborough—Woburn,ON,GPC,1.2,499,True
+35098,Simcoe—Grey,ON,CPC,52.1,35364,True
+35098,Simcoe—Grey,ON,LPC,43.4,29455,True
+35098,Simcoe—Grey,ON,NDP,2.3,1574,True
+35098,Simcoe—Grey,ON,GPC,1.5,991,True
+35098,Simcoe—Grey,ON,PPC,0.8,523,True
+35099,Simcoe North,ON,CPC,48.4,32241,True
+35099,Simcoe North,ON,LPC,44.7,29767,True
+35099,Simcoe North,ON,NDP,3.8,2508,True
+35099,Simcoe North,ON,GPC,1.9,1260,True
+35099,Simcoe North,ON,PPC,1.0,638,True
+35100,Spadina—Harbourfront,ON,LPC,60.1,31832,True
+35100,Spadina—Harbourfront,ON,CPC,30.7,16286,True
+35100,Spadina—Harbourfront,ON,NDP,7.8,4107,True
+35100,Spadina—Harbourfront,ON,GPC,0.8,448,True
+35100,Spadina—Harbourfront,ON,PPC,0.4,193,True
+35101,St. Catharines,ON,LPC,52.0,34750,True
+35101,St. Catharines,ON,CPC,40.4,27013,True
+35101,St. Catharines,ON,NDP,6.0,4021,True
+35101,St. Catharines,ON,PPC,0.8,522,True
+35102,Stormont—Dundas—Glengarry,ON,CPC,56.3,37399,True
+35102,Stormont—Dundas—Glengarry,ON,LPC,39.8,26407,True
+35102,Stormont—Dundas—Glengarry,ON,NDP,2.5,1653,True
+35102,Stormont—Dundas—Glengarry,ON,GPC,1.0,674,True
+35103,Sudbury,ON,LPC,51.9,31551,True
+35103,Sudbury,ON,CPC,39.2,23835,True
+35103,Sudbury,ON,NDP,7.7,4680,True
+35103,Sudbury,ON,PPC,1.3,773,True
+35104,Sudbury East—Manitoulin—Nickel Belt,ON,CPC,48.3,29156,True
+35104,Sudbury East—Manitoulin—Nickel Belt,ON,LPC,41.6,25075,True
+35104,Sudbury East—Manitoulin—Nickel Belt,ON,NDP,8.0,4822,True
+35104,Sudbury East—Manitoulin—Nickel Belt,ON,GPC,0.8,465,True
+35104,Sudbury East—Manitoulin—Nickel Belt,ON,PPC,0.8,489,True
+35105,Taiaiako'n—Parkdale—High Park,ON,LPC,55.8,36439,True
+35105,Taiaiako'n—Parkdale—High Park,ON,NDP,23.0,15003,True
+35105,Taiaiako'n—Parkdale—High Park,ON,CPC,19.4,12662,True
+35105,Taiaiako'n—Parkdale—High Park,ON,GPC,1.1,700,True
+35106,Thornhill,ON,CPC,66.4,44419,True
+35106,Thornhill,ON,LPC,31.2,20873,True
+35106,Thornhill,ON,NDP,1.2,833,True
+35106,Thornhill,ON,PPC,0.7,440,True
+35106,Thornhill,ON,GPC,0.5,353,True
+35107,Thunder Bay—Rainy River,ON,LPC,48.5,21125,True
+35107,Thunder Bay—Rainy River,ON,CPC,42.9,18685,True
+35107,Thunder Bay—Rainy River,ON,NDP,6.8,2954,True
+35107,Thunder Bay—Rainy River,ON,PPC,1.0,433,True
+35107,Thunder Bay—Rainy River,ON,GPC,0.8,334,True
+35108,Thunder Bay—Superior North,ON,LPC,55.2,25134,True
+35108,Thunder Bay—Superior North,ON,CPC,35.7,16267,True
+35108,Thunder Bay—Superior North,ON,NDP,7.1,3235,True
+35108,Thunder Bay—Superior North,ON,PPC,1.0,459,True
+35108,Thunder Bay—Superior North,ON,GPC,0.9,417,True
+35109,Toronto Centre,ON,LPC,64.3,37907,True
+35109,Toronto Centre,ON,CPC,20.9,12321,True
+35109,Toronto Centre,ON,NDP,12.5,7358,True
+35109,Toronto Centre,ON,GPC,1.1,664,True
+35109,Toronto Centre,ON,PPC,0.4,235,True
+35110,Toronto—Danforth,ON,LPC,66.6,39191,True
+35110,Toronto—Danforth,ON,CPC,19.0,11187,True
+35110,Toronto—Danforth,ON,NDP,13.0,7626,True
+35110,Toronto—Danforth,ON,GPC,1.1,626,True
+35111,Toronto—St. Paul's,ON,LPC,61.9,44313,True
+35111,Toronto—St. Paul's,ON,CPC,33.1,23700,True
+35111,Toronto—St. Paul's,ON,NDP,3.5,2496,True
+35111,Toronto—St. Paul's,ON,GPC,0.8,552,True
+35111,Toronto—St. Paul's,ON,PPC,0.5,329,True
+35112,University—Rosedale,ON,LPC,64.0,39847,True
+35112,University—Rosedale,ON,CPC,23.5,14624,True
+35112,University—Rosedale,ON,NDP,9.9,6168,True
+35112,University—Rosedale,ON,GPC,1.7,1066,True
+35113,Vaughan—Woodbridge,ON,CPC,60.0,40422,True
+35113,Vaughan—Woodbridge,ON,LPC,38.0,25617,True
+35113,Vaughan—Woodbridge,ON,NDP,1.3,891,True
+35113,Vaughan—Woodbridge,ON,PPC,0.6,425,True
+35114,Waterloo,ON,LPC,59.5,37579,True
+35114,Waterloo,ON,CPC,32.6,20571,True
+35114,Waterloo,ON,NDP,4.1,2617,True
+35114,Waterloo,ON,GPC,2.5,1599,True
+35114,Waterloo,ON,PPC,0.6,348,True
+35115,Wellington—Halton Hills North,ON,CPC,50.6,33736,True
+35115,Wellington—Halton Hills North,ON,LPC,44.4,29609,True
+35115,Wellington—Halton Hills North,ON,GPC,2.1,1389,True
+35115,Wellington—Halton Hills North,ON,NDP,2.0,1346,True
+35115,Wellington—Halton Hills North,ON,PPC,0.8,566,True
+35116,Whitby,ON,LPC,52.7,35624,True
+35116,Whitby,ON,CPC,43.8,29620,True
+35116,Whitby,ON,NDP,2.4,1638,True
+35116,Whitby,ON,GPC,0.7,506,True
+35117,Willowdale,ON,LPC,53.4,25488,True
+35117,Willowdale,ON,CPC,44.0,20977,True
+35117,Willowdale,ON,NDP,2.6,1224,True
+35118,Windsor—Tecumseh—Lakeshore,ON,CPC,45.8,32090,True
+35118,Windsor—Tecumseh—Lakeshore,ON,LPC,45.7,32086,True
+35118,Windsor—Tecumseh—Lakeshore,ON,NDP,6.0,4240,True
+35118,Windsor—Tecumseh—Lakeshore,ON,PPC,1.2,828,True
+35118,Windsor—Tecumseh—Lakeshore,ON,GPC,0.7,468,True
+35119,Windsor West,ON,CPC,39.0,21412,True
+35119,Windsor West,ON,LPC,30.9,16986,True
+35119,Windsor West,ON,NDP,27.8,15256,True
+35119,Windsor West,ON,PPC,1.0,553,True
+35119,Windsor West,ON,GPC,0.7,397,True
+35120,York Centre,ON,CPC,54.8,26110,True
+35120,York Centre,ON,LPC,42.7,20318,True
+35120,York Centre,ON,NDP,2.5,1191,True
+35121,York—Durham,ON,CPC,55.6,40329,True
+35121,York—Durham,ON,LPC,39.6,28726,True
+35121,York—Durham,ON,NDP,2.5,1829,True
+35121,York—Durham,ON,PPC,1.2,901,True
+35121,York—Durham,ON,GPC,1.1,797,True
+35122,York South—Weston—Etobicoke,ON,LPC,55.3,24663,True
+35122,York South—Weston—Etobicoke,ON,CPC,39.8,17746,True
+35122,York South—Weston—Etobicoke,ON,NDP,4.9,2190,True
+46001,Brandon—Souris,MB,CPC,62.2,28624,True
+46001,Brandon—Souris,MB,LPC,23.4,10766,True
+46001,Brandon—Souris,MB,NDP,14.4,6637,True
+46002,Churchill—Keewatinook Aski,MB,LPC,45.5,9313,True
+46002,Churchill—Keewatinook Aski,MB,NDP,28.7,5880,True
+46002,Churchill—Keewatinook Aski,MB,CPC,24.1,4927,True
+46002,Churchill—Keewatinook Aski,MB,PPC,1.7,349,True
+46003,Elmwood—Transcona,MB,CPC,41.6,19463,True
+46003,Elmwood—Transcona,MB,NDP,34.5,16138,True
+46003,Elmwood—Transcona,MB,LPC,22.4,10512,True
+46003,Elmwood—Transcona,MB,PPC,0.8,396,True
+46003,Elmwood—Transcona,MB,GPC,0.7,321,True
+46004,Kildonan—St. Paul,MB,CPC,47.5,26364,True
+46004,Kildonan—St. Paul,MB,LPC,44.7,24808,True
+46004,Kildonan—St. Paul,MB,NDP,7.0,3863,True
+46004,Kildonan—St. Paul,MB,PPC,0.9,486,True
+46005,Portage—Lisgar,MB,CPC,69.4,31889,True
+46005,Portage—Lisgar,MB,LPC,22.8,10493,True
+46005,Portage—Lisgar,MB,NDP,4.4,2011,True
+46005,Portage—Lisgar,MB,PPC,2.1,977,True
+46005,Portage—Lisgar,MB,GPC,1.3,595,True
+46006,Provencher,MB,CPC,66.3,34364,True
+46006,Provencher,MB,LPC,25.9,13394,True
+46006,Provencher,MB,NDP,4.6,2398,True
+46006,Provencher,MB,PPC,1.8,942,True
+46006,Provencher,MB,GPC,1.4,705,True
+46007,Riding Mountain,MB,CPC,67.8,28409,True
+46007,Riding Mountain,MB,LPC,22.2,9281,True
+46007,Riding Mountain,MB,NDP,7.3,3072,True
+46007,Riding Mountain,MB,GPC,1.3,547,True
+46007,Riding Mountain,MB,PPC,1.3,564,True
+46008,St. Boniface—St. Vital,MB,LPC,59.8,32599,True
+46008,St. Boniface—St. Vital,MB,CPC,32.3,17625,True
+46008,St. Boniface—St. Vital,MB,NDP,6.9,3773,True
+46008,St. Boniface—St. Vital,MB,PPC,1.0,523,True
+46009,Selkirk—Interlake—Eastman,MB,CPC,60.2,32788,True
+46009,Selkirk—Interlake—Eastman,MB,LPC,30.4,16570,True
+46009,Selkirk—Interlake—Eastman,MB,NDP,6.5,3535,True
+46009,Selkirk—Interlake—Eastman,MB,GPC,1.3,709,True
+46009,Selkirk—Interlake—Eastman,MB,PPC,0.9,473,True
+46010,Winnipeg Centre,MB,NDP,39.4,13524,True
+46010,Winnipeg Centre,MB,LPC,35.4,12138,True
+46010,Winnipeg Centre,MB,CPC,22.3,7658,True
+46010,Winnipeg Centre,MB,PPC,1.1,367,True
+46010,Winnipeg Centre,MB,GPC,1.1,389,True
+46011,Winnipeg North,MB,LPC,57.9,19792,True
+46011,Winnipeg North,MB,CPC,34.4,11740,True
+46011,Winnipeg North,MB,NDP,6.0,2059,True
+46011,Winnipeg North,MB,PPC,0.8,274,True
+46011,Winnipeg North,MB,GPC,0.6,194,True
+46012,Winnipeg South,MB,LPC,59.0,27337,True
+46012,Winnipeg South,MB,CPC,35.1,16252,True
+46012,Winnipeg South,MB,NDP,4.6,2114,True
+46012,Winnipeg South,MB,PPC,0.8,385,True
+46012,Winnipeg South,MB,GPC,0.5,231,True
+46013,Winnipeg South Centre,MB,LPC,63.6,33834,True
+46013,Winnipeg South Centre,MB,CPC,27.7,14748,True
+46013,Winnipeg South Centre,MB,NDP,6.5,3463,True
+46013,Winnipeg South Centre,MB,GPC,0.8,450,True
+46013,Winnipeg South Centre,MB,PPC,0.5,272,True
+46014,Winnipeg West,MB,LPC,54.5,30276,True
+46014,Winnipeg West,MB,CPC,40.8,22659,True
+46014,Winnipeg West,MB,NDP,4.0,2218,True
+46014,Winnipeg West,MB,GPC,0.8,438,True
+47001,Battlefords—Lloydminster—Meadow Lake,SK,CPC,75.8,28634,True
+47001,Battlefords—Lloydminster—Meadow Lake,SK,LPC,18.7,7073,True
+47001,Battlefords—Lloydminster—Meadow Lake,SK,NDP,4.8,1816,True
+47002,Carlton Trail—Eagle Creek,SK,CPC,77.4,36427,True
+47002,Carlton Trail—Eagle Creek,SK,LPC,17.0,8008,True
+47002,Carlton Trail—Eagle Creek,SK,NDP,5.6,2616,True
+47003,Desnethé—Missinippi—Churchill River,SK,LPC,65.1,5876,True
+47003,Desnethé—Missinippi—Churchill River,SK,CPC,25.5,2301,True
+47003,Desnethé—Missinippi—Churchill River,SK,NDP,9.4,850,True
+47004,Moose Jaw—Lake Centre—Lanigan,SK,CPC,71.9,32991,True
+47004,Moose Jaw—Lake Centre—Lanigan,SK,LPC,16.7,7661,True
+47004,Moose Jaw—Lake Centre—Lanigan,SK,NDP,7.5,3458,True
+47004,Moose Jaw—Lake Centre—Lanigan,SK,PPC,3.0,1358,True
+47004,Moose Jaw—Lake Centre—Lanigan,SK,GPC,0.9,411,True
+47005,Prince Albert,SK,CPC,71.5,27763,True
+47005,Prince Albert,SK,LPC,19.2,7451,True
+47005,Prince Albert,SK,NDP,9.3,3630,True
+47006,Regina—Lewvan,SK,CPC,50.0,21988,True
+47006,Regina—Lewvan,SK,LPC,43.0,18893,True
+47006,Regina—Lewvan,SK,NDP,5.9,2573,True
+47006,Regina—Lewvan,SK,GPC,0.6,272,True
+47006,Regina—Lewvan,SK,PPC,0.6,243,True
+47007,Regina—Qu'Appelle,SK,CPC,64.0,27024,True
+47007,Regina—Qu'Appelle,SK,LPC,27.0,11391,True
+47007,Regina—Qu'Appelle,SK,NDP,8.0,3388,True
+47007,Regina—Qu'Appelle,SK,PPC,1.0,441,True
+47008,Regina—Wascana,SK,CPC,50.1,22072,True
+47008,Regina—Wascana,SK,LPC,43.7,19252,True
+47008,Regina—Wascana,SK,NDP,4.9,2138,True
+47008,Regina—Wascana,SK,GPC,0.7,289,True
+47008,Regina—Wascana,SK,PPC,0.7,326,True
+47009,Saskatoon South,SK,CPC,49.3,24516,True
+47009,Saskatoon South,SK,LPC,40.4,20107,True
+47009,Saskatoon South,SK,NDP,9.1,4515,True
+47009,Saskatoon South,SK,PPC,0.6,308,True
+47009,Saskatoon South,SK,GPC,0.6,310,True
+47010,Saskatoon—University,SK,CPC,48.9,23178,True
+47010,Saskatoon—University,SK,LPC,41.4,19622,True
+47010,Saskatoon—University,SK,NDP,8.5,4035,True
+47010,Saskatoon—University,SK,PPC,0.7,327,True
+47010,Saskatoon—University,SK,GPC,0.6,263,True
+47011,Saskatoon West,SK,CPC,52.7,19814,True
+47011,Saskatoon West,SK,LPC,27.2,10254,True
+47011,Saskatoon West,SK,NDP,19.1,7187,True
+47011,Saskatoon West,SK,GPC,1.0,376,True
+47012,Souris—Moose Mountain,SK,CPC,84.0,34793,True
+47012,Souris—Moose Mountain,SK,LPC,9.8,4051,True
+47012,Souris—Moose Mountain,SK,NDP,4.6,1888,True
+47012,Souris—Moose Mountain,SK,GPC,0.6,235,True
+47013,Swift Current—Grasslands—Kindersley,SK,CPC,82.0,32292,True
+47013,Swift Current—Grasslands—Kindersley,SK,LPC,11.2,4420,True
+47013,Swift Current—Grasslands—Kindersley,SK,NDP,5.7,2250,True
+47014,Yorkton—Melville,SK,CPC,77.5,28702,True
+47014,Yorkton—Melville,SK,LPC,14.4,5338,True
+47014,Yorkton—Melville,SK,NDP,5.5,2034,True
+47014,Yorkton—Melville,SK,GPC,1.9,713,True
+48001,Airdrie—Cochrane,AB,CPC,71.2,50252,True
+48001,Airdrie—Cochrane,AB,LPC,23.7,16714,True
+48001,Airdrie—Cochrane,AB,NDP,3.7,2591,True
+48002,Battle River—Crowfoot,AB,CPC,82.8,53684,True
+48002,Battle River—Crowfoot,AB,LPC,11.7,7566,True
+48002,Battle River—Crowfoot,AB,NDP,3.2,2061,True
+48002,Battle River—Crowfoot,AB,PPC,1.6,1022,True
+48002,Battle River—Crowfoot,AB,GPC,0.7,474,True
+48003,Bow River,AB,CPC,78.9,44605,True
+48003,Bow River,AB,LPC,16.9,9562,True
+48003,Bow River,AB,NDP,3.0,1689,True
+48004,Calgary Centre,AB,CPC,50.2,31604,True
+48004,Calgary Centre,AB,LPC,45.8,28824,True
+48004,Calgary Centre,AB,NDP,2.6,1665,True
+48004,Calgary Centre,AB,GPC,0.6,362,True
+48004,Calgary Centre,AB,PPC,0.6,365,True
+48005,Calgary Confederation,AB,LPC,48.1,33112,True
+48005,Calgary Confederation,AB,CPC,46.3,31839,True
+48005,Calgary Confederation,AB,NDP,4.1,2844,True
+48005,Calgary Confederation,AB,GPC,0.6,400,True
+48005,Calgary Confederation,AB,PPC,0.4,302,True
+48006,Calgary Crowfoot,AB,CPC,58.8,39971,True
+48006,Calgary Crowfoot,AB,LPC,37.4,25386,True
+48006,Calgary Crowfoot,AB,NDP,2.6,1741,True
+48006,Calgary Crowfoot,AB,GPC,0.5,346,True
+48006,Calgary Crowfoot,AB,PPC,0.5,360,True
+48007,Calgary East,AB,CPC,60.5,32490,True
+48007,Calgary East,AB,LPC,31.8,17062,True
+48007,Calgary East,AB,NDP,3.9,2092,True
+48007,Calgary East,AB,PPC,1.7,908,True
+48007,Calgary East,AB,GPC,1.2,664,True
+48008,Calgary Heritage,AB,CPC,61.4,42088,True
+48008,Calgary Heritage,AB,LPC,34.6,23673,True
+48008,Calgary Heritage,AB,NDP,2.5,1691,True
+48008,Calgary Heritage,AB,GPC,0.7,493,True
+48009,Calgary McKnight,AB,CPC,49.1,20863,True
+48009,Calgary McKnight,AB,LPC,46.0,19546,True
+48009,Calgary McKnight,AB,NDP,2.8,1204,True
+48009,Calgary McKnight,AB,PPC,0.8,323,True
+48009,Calgary McKnight,AB,GPC,0.6,273,True
+48010,Calgary Midnapore,AB,CPC,65.5,48131,True
+48010,Calgary Midnapore,AB,LPC,29.9,21979,True
+48010,Calgary Midnapore,AB,NDP,3.1,2271,True
+48010,Calgary Midnapore,AB,PPC,0.8,556,True
+48010,Calgary Midnapore,AB,GPC,0.7,495,True
+48011,Calgary Nose Hill,AB,CPC,59.4,36597,True
+48011,Calgary Nose Hill,AB,LPC,36.2,22276,True
+48011,Calgary Nose Hill,AB,NDP,3.2,1975,True
+48011,Calgary Nose Hill,AB,GPC,0.7,430,True
+48012,Calgary Shepard,AB,CPC,68.0,44363,True
+48012,Calgary Shepard,AB,LPC,28.2,18421,True
+48012,Calgary Shepard,AB,NDP,2.7,1780,True
+48012,Calgary Shepard,AB,PPC,0.6,383,True
+48012,Calgary Shepard,AB,GPC,0.5,302,True
+48013,Calgary Signal Hill,AB,CPC,60.1,41638,True
+48013,Calgary Signal Hill,AB,LPC,36.4,25174,True
+48013,Calgary Signal Hill,AB,NDP,2.4,1656,True
+48013,Calgary Signal Hill,AB,PPC,0.7,492,True
+48014,Calgary Skyview,AB,CPC,55.4,27808,True
+48014,Calgary Skyview,AB,LPC,37.6,18842,True
+48014,Calgary Skyview,AB,NDP,2.7,1351,True
+48015,Edmonton Centre,AB,LPC,44.3,24138,True
+48015,Edmonton Centre,AB,CPC,37.9,20626,True
+48015,Edmonton Centre,AB,NDP,15.5,8440,True
+48015,Edmonton Centre,AB,PPC,0.9,468,True
+48016,Edmonton Gateway,AB,CPC,50.6,26385,True
+48016,Edmonton Gateway,AB,LPC,37.3,19435,True
+48016,Edmonton Gateway,AB,NDP,4.9,2565,True
+48016,Edmonton Gateway,AB,PPC,0.9,474,True
+48017,Edmonton Griesbach,AB,CPC,45.5,22256,True
+48017,Edmonton Griesbach,AB,NDP,34.1,16717,True
+48017,Edmonton Griesbach,AB,LPC,18.3,8973,True
+48017,Edmonton Griesbach,AB,PPC,0.6,318,True
+48017,Edmonton Griesbach,AB,GPC,0.6,302,True
+48018,Edmonton Manning,AB,CPC,53.1,26445,True
+48018,Edmonton Manning,AB,LPC,35.3,17603,True
+48018,Edmonton Manning,AB,NDP,9.9,4935,True
+48018,Edmonton Manning,AB,PPC,1.7,824,True
+48019,Edmonton Northwest,AB,CPC,53.4,29194,True
+48019,Edmonton Northwest,AB,LPC,38.3,20907,True
+48019,Edmonton Northwest,AB,NDP,6.6,3597,True
+48019,Edmonton Northwest,AB,PPC,1.1,593,True
+48019,Edmonton Northwest,AB,GPC,0.6,335,True
+48020,Edmonton Riverbend,AB,CPC,50.2,30343,True
+48020,Edmonton Riverbend,AB,LPC,44.8,27075,True
+48020,Edmonton Riverbend,AB,NDP,4.2,2563,True
+48020,Edmonton Riverbend,AB,PPC,0.7,410,True
+48021,Edmonton Southeast,AB,CPC,52.9,25206,True
+48021,Edmonton Southeast,AB,LPC,38.8,18481,True
+48021,Edmonton Southeast,AB,NDP,5.3,2536,True
+48021,Edmonton Southeast,AB,PPC,1.8,881,True
+48022,Edmonton Strathcona,AB,NDP,47.0,28027,True
+48022,Edmonton Strathcona,AB,CPC,33.1,19768,True
+48022,Edmonton Strathcona,AB,LPC,17.9,10709,True
+48022,Edmonton Strathcona,AB,GPC,0.6,366,True
+48022,Edmonton Strathcona,AB,PPC,0.6,386,True
+48023,Edmonton West,AB,CPC,52.9,31201,True
+48023,Edmonton West,AB,LPC,40.7,23995,True
+48023,Edmonton West,AB,NDP,5.4,3164,True
+48023,Edmonton West,AB,PPC,0.9,534,True
+48024,Foothills,AB,CPC,76.3,54874,True
+48024,Foothills,AB,LPC,19.1,13706,True
+48024,Foothills,AB,NDP,2.7,1923,True
+48024,Foothills,AB,PPC,1.1,796,True
+48024,Foothills,AB,GPC,0.8,589,True
+48025,Fort McMurray—Cold Lake,AB,CPC,80.2,39649,True
+48025,Fort McMurray—Cold Lake,AB,LPC,14.5,7193,True
+48025,Fort McMurray—Cold Lake,AB,NDP,2.7,1337,True
+48025,Fort McMurray—Cold Lake,AB,PPC,1.8,896,True
+48025,Fort McMurray—Cold Lake,AB,GPC,0.6,290,True
+48026,Grande Prairie,AB,CPC,81.7,47904,True
+48026,Grande Prairie,AB,LPC,11.8,6946,True
+48026,Grande Prairie,AB,NDP,4.2,2460,True
+48026,Grande Prairie,AB,PPC,1.4,828,True
+48027,Lakeland,AB,CPC,81.0,45826,True
+48027,Lakeland,AB,LPC,12.2,6886,True
+48027,Lakeland,AB,NDP,3.8,2153,True
+48027,Lakeland,AB,PPC,1.7,982,True
+48027,Lakeland,AB,GPC,0.7,411,True
+48028,Leduc—Wetaskiwin,AB,CPC,74.7,47947,True
+48028,Leduc—Wetaskiwin,AB,LPC,17.4,11136,True
+48028,Leduc—Wetaskiwin,AB,NDP,6.1,3927,True
+48028,Leduc—Wetaskiwin,AB,PPC,1.1,688,True
+48029,Lethbridge,AB,CPC,61.1,40866,True
+48029,Lethbridge,AB,LPC,32.7,21899,True
+48029,Lethbridge,AB,NDP,3.6,2431,True
+48029,Lethbridge,AB,PPC,0.7,478,True
+48029,Lethbridge,AB,GPC,0.7,457,True
+48030,Medicine Hat—Cardston—Warner,AB,CPC,76.7,41518,True
+48030,Medicine Hat—Cardston—Warner,AB,LPC,17.7,9554,True
+48030,Medicine Hat—Cardston—Warner,AB,NDP,4.8,2588,True
+48030,Medicine Hat—Cardston—Warner,AB,GPC,0.8,440,True
+48031,Parkland,AB,CPC,75.2,53468,True
+48031,Parkland,AB,LPC,17.8,12690,True
+48031,Parkland,AB,NDP,4.1,2949,True
+48031,Parkland,AB,PPC,1.5,1066,True
+48031,Parkland,AB,GPC,0.6,449,True
+48032,Peace River—Westlock,AB,CPC,77.1,41130,True
+48032,Peace River—Westlock,AB,LPC,11.8,6278,True
+48032,Peace River—Westlock,AB,NDP,5.5,2913,True
+48033,Ponoka—Didsbury,AB,CPC,81.8,56106,True
+48033,Ponoka—Didsbury,AB,NDP,10.8,7414,True
+48033,Ponoka—Didsbury,AB,PPC,1.9,1289,True
+48034,Red Deer,AB,CPC,71.6,44239,True
+48034,Red Deer,AB,LPC,21.9,13564,True
+48034,Red Deer,AB,NDP,3.8,2375,True
+48034,Red Deer,AB,PPC,1.3,813,True
+48034,Red Deer,AB,GPC,1.0,618,True
+48035,Sherwood Park—Fort Saskatchewan,AB,CPC,66.3,54131,True
+48035,Sherwood Park—Fort Saskatchewan,AB,LPC,27.2,22178,True
+48035,Sherwood Park—Fort Saskatchewan,AB,NDP,5.1,4136,True
+48035,Sherwood Park—Fort Saskatchewan,AB,PPC,0.6,497,True
+48035,Sherwood Park—Fort Saskatchewan,AB,GPC,0.5,448,True
+48036,St. Albert—Sturgeon River,AB,CPC,63.9,49216,True
+48036,St. Albert—Sturgeon River,AB,LPC,29.9,22977,True
+48036,St. Albert—Sturgeon River,AB,NDP,4.8,3684,True
+48036,St. Albert—Sturgeon River,AB,PPC,1.1,820,True
+48037,Yellowhead,AB,CPC,69.1,47863,True
+48037,Yellowhead,AB,LPC,25.2,17469,True
+48037,Yellowhead,AB,NDP,4.0,2753,True
+48037,Yellowhead,AB,PPC,1.4,952,True
+59001,Abbotsford—South Langley,BC,CPC,43.1,24116,True
+59001,Abbotsford—South Langley,BC,LPC,33.9,18969,True
+59001,Abbotsford—South Langley,BC,NDP,3.8,2104,True
+59001,Abbotsford—South Langley,BC,GPC,1.0,577,True
+59001,Abbotsford—South Langley,BC,PPC,0.8,459,True
+59002,Burnaby Central,BC,LPC,42.2,21745,True
+59002,Burnaby Central,BC,CPC,38.6,19889,True
+59002,Burnaby Central,BC,NDP,18.2,9353,True
+59002,Burnaby Central,BC,PPC,1.0,506,True
+59003,Burnaby North—Seymour,BC,LPC,59.1,37829,True
+59003,Burnaby North—Seymour,BC,CPC,33.9,21742,True
+59003,Burnaby North—Seymour,BC,NDP,6.4,4121,True
+59003,Burnaby North—Seymour,BC,PPC,0.6,366,True
+59004,Cariboo—Prince George,BC,CPC,60.3,38175,True
+59004,Cariboo—Prince George,BC,LPC,30.4,19243,True
+59004,Cariboo—Prince George,BC,NDP,6.2,3900,True
+59004,Cariboo—Prince George,BC,GPC,1.8,1155,True
+59004,Cariboo—Prince George,BC,PPC,0.7,436,True
+59005,Chilliwack—Hope,BC,CPC,54.8,36027,True
+59005,Chilliwack—Hope,BC,LPC,35.4,23254,True
+59005,Chilliwack—Hope,BC,NDP,7.3,4779,True
+59005,Chilliwack—Hope,BC,GPC,1.6,1083,True
+59005,Chilliwack—Hope,BC,PPC,0.7,482,True
+59006,Cloverdale—Langley City,BC,CPC,47.8,25606,True
+59006,Cloverdale—Langley City,BC,LPC,46.4,24828,True
+59006,Cloverdale—Langley City,BC,NDP,4.4,2350,True
+59006,Cloverdale—Langley City,BC,GPC,0.9,493,True
+59006,Cloverdale—Langley City,BC,PPC,0.5,289,True
+59007,Columbia—Kootenay—Southern Rockies,BC,CPC,50.4,36081,True
+59007,Columbia—Kootenay—Southern Rockies,BC,LPC,28.2,20184,True
+59007,Columbia—Kootenay—Southern Rockies,BC,NDP,18.0,12871,True
+59007,Columbia—Kootenay—Southern Rockies,BC,GPC,1.5,1064,True
+59007,Columbia—Kootenay—Southern Rockies,BC,PPC,0.7,486,True
+59008,Coquitlam—Port Coquitlam,BC,LPC,47.4,27250,True
+59008,Coquitlam—Port Coquitlam,BC,CPC,43.0,24730,True
+59008,Coquitlam—Port Coquitlam,BC,NDP,7.4,4253,True
+59008,Coquitlam—Port Coquitlam,BC,GPC,0.9,504,True
+59009,Courtenay—Alberni,BC,NDP,39.6,31617,True
+59009,Courtenay—Alberni,BC,CPC,35.1,28028,True
+59009,Courtenay—Alberni,BC,LPC,22.7,18078,True
+59009,Courtenay—Alberni,BC,GPC,1.7,1352,True
+59009,Courtenay—Alberni,BC,PPC,0.5,427,True
+59010,Cowichan—Malahat—Langford,BC,CPC,37.2,28370,True
+59010,Cowichan—Malahat—Langford,BC,NDP,32.6,24826,True
+59010,Cowichan—Malahat—Langford,BC,LPC,28.2,21478,True
+59010,Cowichan—Malahat—Langford,BC,GPC,2.0,1500,True
+59011,Delta,BC,LPC,51.8,32802,True
+59011,Delta,BC,CPC,43.2,27314,True
+59011,Delta,BC,NDP,4.4,2787,True
+59011,Delta,BC,PPC,0.6,390,True
+59012,Esquimalt—Saanich—Sooke,BC,LPC,49.3,36181,True
+59012,Esquimalt—Saanich—Sooke,BC,CPC,28.7,21082,True
+59012,Esquimalt—Saanich—Sooke,BC,NDP,18.6,13666,True
+59012,Esquimalt—Saanich—Sooke,BC,GPC,2.7,1959,True
+59013,Fleetwood—Port Kells,BC,LPC,47.9,23250,True
+59013,Fleetwood—Port Kells,BC,CPC,44.2,21439,True
+59013,Fleetwood—Port Kells,BC,NDP,5.9,2885,True
+59013,Fleetwood—Port Kells,BC,PPC,1.0,499,True
+59013,Fleetwood—Port Kells,BC,GPC,0.9,460,True
+59014,Kamloops—Shuswap—Central Rockies,BC,CPC,52.2,35556,True
+59014,Kamloops—Shuswap—Central Rockies,BC,LPC,39.0,26529,True
+59014,Kamloops—Shuswap—Central Rockies,BC,NDP,5.5,3730,True
+59014,Kamloops—Shuswap—Central Rockies,BC,GPC,2.4,1639,True
+59014,Kamloops—Shuswap—Central Rockies,BC,PPC,0.9,602,True
+59015,Kamloops—Thompson—Nicola,BC,CPC,51.5,32008,True
+59015,Kamloops—Thompson—Nicola,BC,LPC,40.2,24961,True
+59015,Kamloops—Thompson—Nicola,BC,NDP,5.9,3681,True
+59015,Kamloops—Thompson—Nicola,BC,GPC,1.5,936,True
+59015,Kamloops—Thompson—Nicola,BC,PPC,0.8,516,True
+59016,Kelowna,BC,LPC,48.8,28702,True
+59016,Kelowna,BC,CPC,46.9,27620,True
+59016,Kelowna,BC,NDP,3.3,1941,True
+59016,Kelowna,BC,GPC,1.0,578,True
+59017,Langley Township—Fraser Heights,BC,CPC,51.4,33574,True
+59017,Langley Township—Fraser Heights,BC,LPC,42.9,28034,True
+59017,Langley Township—Fraser Heights,BC,NDP,4.0,2611,True
+59017,Langley Township—Fraser Heights,BC,GPC,0.8,491,True
+59017,Langley Township—Fraser Heights,BC,PPC,0.5,303,True
+59018,Mission—Matsqui—Abbotsford,BC,CPC,56.7,33791,True
+59018,Mission—Matsqui—Abbotsford,BC,LPC,36.6,21838,True
+59018,Mission—Matsqui—Abbotsford,BC,NDP,4.6,2745,True
+59018,Mission—Matsqui—Abbotsford,BC,GPC,1.2,723,True
+59018,Mission—Matsqui—Abbotsford,BC,PPC,0.8,502,True
+59019,Nanaimo—Ladysmith,BC,CPC,35.5,26381,True
+59019,Nanaimo—Ladysmith,BC,LPC,27.8,20656,True
+59019,Nanaimo—Ladysmith,BC,NDP,18.3,13586,True
+59019,Nanaimo—Ladysmith,BC,GPC,18.1,13485,True
+59019,Nanaimo—Ladysmith,BC,PPC,0.4,289,True
+59020,New Westminster—Burnaby—Maillardville,BC,LPC,35.1,19547,True
+59020,New Westminster—Burnaby—Maillardville,BC,NDP,31.5,17574,True
+59020,New Westminster—Burnaby—Maillardville,BC,CPC,31.4,17507,True
+59020,New Westminster—Burnaby—Maillardville,BC,GPC,1.2,690,True
+59021,North Island—Powell River,BC,CPC,38.7,31356,True
+59021,North Island—Powell River,BC,NDP,32.6,26357,True
+59021,North Island—Powell River,BC,LPC,26.2,21218,True
+59021,North Island—Powell River,BC,GPC,1.9,1505,True
+59021,North Island—Powell River,BC,PPC,0.4,341,True
+59022,North Vancouver—Capilano,BC,LPC,59.8,37907,True
+59022,North Vancouver—Capilano,BC,CPC,33.7,21339,True
+59022,North Vancouver—Capilano,BC,NDP,4.2,2684,True
+59022,North Vancouver—Capilano,BC,GPC,1.7,1076,True
+59022,North Vancouver—Capilano,BC,PPC,0.4,256,True
+59023,Okanagan Lake West—South Kelowna,BC,CPC,50.9,33219,True
+59023,Okanagan Lake West—South Kelowna,BC,LPC,44.2,28827,True
+59023,Okanagan Lake West—South Kelowna,BC,NDP,3.4,2189,True
+59023,Okanagan Lake West—South Kelowna,BC,GPC,0.9,602,True
+59023,Okanagan Lake West—South Kelowna,BC,PPC,0.5,307,True
+59024,Pitt Meadows—Maple Ridge,BC,CPC,47.4,31924,True
+59024,Pitt Meadows—Maple Ridge,BC,LPC,45.6,30728,True
+59024,Pitt Meadows—Maple Ridge,BC,NDP,6.2,4141,True
+59024,Pitt Meadows—Maple Ridge,BC,PPC,0.5,368,True
+59025,Port Moody—Coquitlam,BC,LPC,43.5,27074,True
+59025,Port Moody—Coquitlam,BC,CPC,40.4,25126,True
+59025,Port Moody—Coquitlam,BC,NDP,15.0,9360,True
+59025,Port Moody—Coquitlam,BC,GPC,0.8,519,True
+59026,Prince George—Peace River—Northern Rockies,BC,CPC,71.1,41956,True
+59026,Prince George—Peace River—Northern Rockies,BC,LPC,19.6,11545,True
+59026,Prince George—Peace River—Northern Rockies,BC,NDP,6.0,3542,True
+59026,Prince George—Peace River—Northern Rockies,BC,GPC,2.1,1259,True
+59026,Prince George—Peace River—Northern Rockies,BC,PPC,1.2,690,True
+59027,Richmond Centre—Marpole,BC,CPC,49.6,23532,True
+59027,Richmond Centre—Marpole,BC,LPC,44.7,21232,True
+59027,Richmond Centre—Marpole,BC,NDP,4.4,2109,True
+59027,Richmond Centre—Marpole,BC,GPC,0.9,420,True
+59027,Richmond Centre—Marpole,BC,PPC,0.4,193,True
+59028,Richmond East—Steveston,BC,LPC,48.4,25705,True
+59028,Richmond East—Steveston,BC,CPC,46.4,24605,True
+59028,Richmond East—Steveston,BC,NDP,4.2,2251,True
+59028,Richmond East—Steveston,BC,GPC,0.9,494,True
+59029,Saanich—Gulf Islands,BC,GPC,39.1,31199,True
+59029,Saanich—Gulf Islands,BC,LPC,31.8,25409,True
+59029,Saanich—Gulf Islands,BC,CPC,25.1,20015,True
+59029,Saanich—Gulf Islands,BC,NDP,4.0,3163,True
+59030,Similkameen—South Okanagan—West Kootenay,BC,CPC,44.1,30054,True
+59030,Similkameen—South Okanagan—West Kootenay,BC,LPC,37.3,25431,True
+59030,Similkameen—South Okanagan—West Kootenay,BC,NDP,16.2,11033,True
+59030,Similkameen—South Okanagan—West Kootenay,BC,GPC,1.5,1044,True
+59030,Similkameen—South Okanagan—West Kootenay,BC,PPC,1.0,654,True
+59031,Skeena—Bulkley Valley,BC,CPC,47.2,21202,True
+59031,Skeena—Bulkley Valley,BC,NDP,39.3,17677,True
+59031,Skeena—Bulkley Valley,BC,LPC,11.0,4923,True
+59031,Skeena—Bulkley Valley,BC,GPC,1.2,528,True
+59032,South Surrey—White Rock,BC,LPC,50.5,33094,True
+59032,South Surrey—White Rock,BC,CPC,45.7,29924,True
+59032,South Surrey—White Rock,BC,NDP,2.5,1634,True
+59032,South Surrey—White Rock,BC,GPC,1.3,875,True
+59033,Surrey Centre,BC,LPC,48.0,19900,True
+59033,Surrey Centre,BC,CPC,43.2,17920,True
+59033,Surrey Centre,BC,NDP,6.8,2811,True
+59033,Surrey Centre,BC,GPC,1.0,395,True
+59033,Surrey Centre,BC,PPC,0.6,246,True
+59034,Surrey Newton,BC,LPC,49.5,20263,True
+59034,Surrey Newton,BC,CPC,44.0,18023,True
+59034,Surrey Newton,BC,NDP,6.0,2467,True
+59035,Vancouver Centre,BC,LPC,55.2,29855,True
+59035,Vancouver Centre,BC,CPC,30.3,16368,True
+59035,Vancouver Centre,BC,NDP,12.6,6807,True
+59035,Vancouver Centre,BC,GPC,1.4,757,True
+59035,Vancouver Centre,BC,PPC,0.4,211,True
+59036,Vancouver East,BC,NDP,43.6,24945,True
+59036,Vancouver East,BC,LPC,35.5,20287,True
+59036,Vancouver East,BC,CPC,17.8,10162,True
+59036,Vancouver East,BC,GPC,1.9,1099,True
+59036,Vancouver East,BC,PPC,0.6,329,True
+59037,Vancouver Fraserview—South Burnaby,BC,LPC,52.3,27117,True
+59037,Vancouver Fraserview—South Burnaby,BC,CPC,35.7,18500,True
+59037,Vancouver Fraserview—South Burnaby,BC,NDP,9.8,5088,True
+59037,Vancouver Fraserview—South Burnaby,BC,GPC,1.3,658,True
+59037,Vancouver Fraserview—South Burnaby,BC,PPC,0.9,482,True
+59038,Vancouver Granville,BC,LPC,62.1,37010,True
+59038,Vancouver Granville,BC,CPC,28.8,17133,True
+59038,Vancouver Granville,BC,NDP,7.5,4489,True
+59038,Vancouver Granville,BC,GPC,1.6,945,True
+59039,Vancouver Kingsway,BC,NDP,37.2,18788,True
+59039,Vancouver Kingsway,BC,LPC,36.6,18485,True
+59039,Vancouver Kingsway,BC,CPC,24.5,12352,True
+59039,Vancouver Kingsway,BC,GPC,1.0,499,True
+59039,Vancouver Kingsway,BC,PPC,0.6,322,True
+59040,Vancouver Quadra,BC,LPC,63.2,35384,True
+59040,Vancouver Quadra,BC,CPC,30.4,17008,True
+59040,Vancouver Quadra,BC,NDP,4.3,2391,True
+59040,Vancouver Quadra,BC,GPC,1.8,1032,True
+59040,Vancouver Quadra,BC,PPC,0.3,182,True
+59041,Vernon—Lake Country—Monashee,BC,CPC,50.4,33850,True
+59041,Vernon—Lake Country—Monashee,BC,LPC,42.8,28769,True
+59041,Vernon—Lake Country—Monashee,BC,NDP,5.1,3417,True
+59041,Vernon—Lake Country—Monashee,BC,GPC,1.6,1105,True
+59042,Victoria,BC,LPC,54.3,41128,True
+59042,Victoria,BC,NDP,24.9,18877,True
+59042,Victoria,BC,CPC,17.0,12870,True
+59042,Victoria,BC,GPC,3.1,2350,True
+59042,Victoria,BC,PPC,0.4,278,True
+59043,West Vancouver—Sunshine Coast—Sea to Sky Country,BC,LPC,59.7,38384,True
+59043,West Vancouver—Sunshine Coast—Sea to Sky Country,BC,CPC,33.0,21181,True
+59043,West Vancouver—Sunshine Coast—Sea to Sky Country,BC,GPC,3.4,2205,True
+59043,West Vancouver—Sunshine Coast—Sea to Sky Country,BC,NDP,3.2,2070,True
+59043,West Vancouver—Sunshine Coast—Sea to Sky Country,BC,PPC,0.5,308,True
+60001,Yukon,YT,LPC,53.1,12009,True
+60001,Yukon,YT,CPC,38.5,8719,True
+60001,Yukon,YT,NDP,6.3,1434,True
+60001,Yukon,YT,GPC,2.1,474,True
+61001,Northwest Territories,NT,LPC,53.5,8855,True
+61001,Northwest Territories,NT,CPC,33.3,5513,True
+61001,Northwest Territories,NT,NDP,12.2,2011,True
+61001,Northwest Territories,NT,GPC,1.0,170,True
+62001,Nunavut,NU,NDP,37.3,2853,True
+62001,Nunavut,NU,LPC,36.7,2812,True
+62001,Nunavut,NU,CPC,26.0,1992,True
