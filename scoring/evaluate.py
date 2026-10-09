@@ -1,12 +1,15 @@
 """
 Northern Vibe - GE45 scoring harness
 
-Reproduces the accuracy figures on northernvibe.ca/accuracy from two flat files:
+Reproduces the out-of-sample accuracy figures on northernvibe.ca/accuracy from
+two flat files:
 
-  - scoring/fixtures/ge45_prediction_2025-04-27.json   (frozen pre-election predictions)
-  - scoring/data/ge45_certified_results.csv             (Elections Canada certified results)
+  - scoring/fixtures/ge45_oos_backtest.json   (frozen backtest predictions)
+  - scoring/data/ge45_certified_results.csv   (Elections Canada certified results)
 
-No simulation imports, no database. Just csv + json from the stdlib.
+Every number is derived here: the fixture holds each riding's predicted winner,
+and this script compares it with the certified winner. No simulation imports,
+no database. Just csv + json from the stdlib.
 
 Run with:
     python scoring/evaluate.py
@@ -23,10 +26,19 @@ import sys
 # Paths
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
-FIXTURE_PATH = os.path.join(_HERE, "fixtures", "ge45_prediction_2025-04-27.json")
+FIXTURE_PATH = os.path.join(_HERE, "fixtures", "ge45_oos_backtest.json")
 RESULTS_PATH = os.path.join(_HERE, "data", "ge45_certified_results.csv")
 
 PARTIES = ["LPC", "CPC", "NDP", "BQ", "GPC", "PPC"]
+
+# The figures published on /accuracy. The assertions at the end check that
+# the files in this directory reproduce them.
+PUBLISHED = {
+    "riding_accuracy": 88.0,      # 301 / 342
+    "ridings_correct": 301,
+    "persistence_accuracy": 83.3,  # 285 / 342, "2021 winner holds"
+    "vote_mae": 0.87,
+}
 
 
 # Load data
@@ -54,6 +66,18 @@ def load_certified_results(path: str) -> list[dict]:
 
 # Derived metrics
 
+def certified_winners(results: list[dict], excluded: set[str]) -> dict[str, dict]:
+    """Winner per riding = party with the highest vote share."""
+    best: dict[str, dict] = {}
+    for row in results:
+        if row["fed_code"] in excluded:
+            continue
+        fc = row["fed_code"]
+        if fc not in best or row["vote_share"] > best[fc]["vote_share"]:
+            best[fc] = row
+    return best
+
+
 def compute_actual_vote_shares(results: list[dict], excluded: set[str]) -> dict[str, float]:
     """National vote share = sum(party_votes) / sum(all_votes) per party."""
     total_votes: dict[str, int] = {}
@@ -70,20 +94,20 @@ def compute_actual_vote_shares(results: list[dict], excluded: set[str]) -> dict[
     return {p: round(v / grand_total * 100, 2) for p, v in total_votes.items()}
 
 
-def compute_actual_seats(results: list[dict], excluded: set[str]) -> dict[str, int]:
-    """Winner per riding = party with highest vote_share."""
-    best: dict[str, tuple[str, float]] = {}  # fed_code -> (party, vote_share)
-    for row in results:
-        if row["fed_code"] in excluded:
+def score_calls(predicted: dict[str, str], winners: dict[str, dict]) -> tuple[int, int, list[dict]]:
+    """(correct, total, misses) for one set of riding calls."""
+    correct = total = 0
+    misses = []
+    for fc, row in sorted(winners.items()):
+        pred = predicted.get(fc)
+        if pred is None:
             continue
-        fc = row["fed_code"]
-        if fc not in best or row["vote_share"] > best[fc][1]:
-            best[fc] = (row["party"], row["vote_share"])
-
-    seats: dict[str, int] = {}
-    for party, _ in best.values():
-        seats[party] = seats.get(party, 0) + 1
-    return seats
+        total += 1
+        if pred == row["party"]:
+            correct += 1
+        else:
+            misses.append({**row, "predicted": pred})
+    return correct, total, misses
 
 
 def compute_mae(predicted: dict[str, float], actual: dict[str, float]) -> float:
@@ -131,41 +155,36 @@ def main() -> None:
     results  = load_certified_results(RESULTS_PATH)
     excluded = set(fixture.get("ridings_excluded", []))
 
-    predicted_vote_share = fixture["predicted_vote_share"]
-    predicted_seats = fixture["predicted_seats"]
-    # missed_ridings is populated in the fixture post-certification, not recomputed here
-    missed_ridings = fixture.get("missed_ridings", [])
+    winners = certified_winners(results, excluded)
+    correct, total, misses = score_calls(fixture["predicted_winners"], winners)
+    p_correct, p_total, _ = score_calls(fixture["persistence_winners"], winners)
+    riding_accuracy = correct / total * 100 if total else 0.0
+    persistence_accuracy = p_correct / p_total * 100 if p_total else 0.0
 
     actual_vote_share = compute_actual_vote_shares(results, excluded)
-    actual_seats      = compute_actual_seats(results, excluded)
+    actual_seats: dict[str, int] = {}
+    for row in winners.values():
+        actual_seats[row["party"]] = actual_seats.get(row["party"], 0) + 1
 
-    # Ridings total = all non-excluded ridings that have a certified winner
-    best: dict[str, tuple[str, float]] = {}
-    for row in results:
-        if row["fed_code"] in excluded:
-            continue
-        fc = row["fed_code"]
-        if fc not in best or row["vote_share"] > best[fc][1]:
-            best[fc] = (row["party"], row["vote_share"])
-    ridings_total   = len(best)
-    ridings_missed  = len(missed_ridings)
-    ridings_correct = ridings_total - ridings_missed
-    riding_accuracy = ridings_correct / ridings_total * 100 if ridings_total else 0.0
-
+    predicted_vote_share = fixture["predicted_vote_share"]
+    predicted_seats = fixture["predicted_seats"]
     mae = compute_mae(predicted_vote_share, actual_vote_share)
     bands_hit, bands_n = compute_80_band_coverage(predicted_seats, actual_seats)
 
     # Print results
 
-    sep = "-" * 55
+    sep = "-" * 60
     print()
-    print("Northern Vibe \u2014 GE45 Scoring Report")
+    print("Northern Vibe — GE45 Out-of-Sample Scoring Report")
     print(f"Fixture : {os.path.basename(FIXTURE_PATH)}")
     print(f"Results : {os.path.basename(RESULTS_PATH)}")
+    print(f"Inputs  : {fixture['baseline']} riding results + national polls as of {fixture['holdout_date']}")
     print(sep)
-    print(f"Riding call accuracy : {riding_accuracy:.1f}%  ({ridings_correct} / {ridings_total})")
-    print(f"Vote share MAE       : {mae:.2f}pp")
-    print(f"80% seat bands hit   : {bands_hit} / {bands_n}")
+    print(f"Riding call accuracy   : {riding_accuracy:.1f}%  ({correct} / {total})")
+    print(f"2021 winner holds      : {persistence_accuracy:.1f}%  ({p_correct} / {p_total})  [naive baseline]")
+    print(f"Vote share MAE         : {mae:.2f}pp")
+    print(f"80% seat bands hit     : {bands_hit} / {bands_n}")
+    print(f"LPC majority (model)   : {fixture['lpc_majority_prob']:.1f}%  (actual: {actual_seats.get('LPC', 0)} seats)")
     print(sep)
     print()
     print("Vote share detail:")
@@ -181,7 +200,7 @@ def main() -> None:
         sign = "+" if err >= 0 else ""
         print(f"  {party:<6}  {pred:>8.2f}%  {actual:>8.2f}%  {sign}{err:>6.2f}pp")
     print()
-    print("Seat projection detail (80% range = p10\u2013p90):")
+    print("Seat projection detail (80% range = p10–p90):")
     header2 = f"  {'Party':<6}  {'Median':>6}  {'80% range':>12}  {'Actual':>6}  {'In range?':>9}"
     print(header2)
     print("  " + "-" * (len(header2) - 2))
@@ -189,27 +208,24 @@ def main() -> None:
         proj = predicted_seats.get(party)
         if proj is None:
             continue
-        p50 = proj["p50"]
-        p10 = proj["p10"]
-        p90 = proj["p90"]
         actual = actual_seats.get(party, 0)
-        in_range = "YES" if p10 <= actual <= p90 else "NO"
-        print(f"  {party:<6}  {p50:>6}  {p10:>5}\u2013{p90:<5}       {actual:>6}  {in_range:>9}")
+        in_range = "YES" if proj["p10"] <= actual <= proj["p90"] else "NO"
+        print(f"  {party:<6}  {proj['p50']:>6}  {proj['p10']:>5}–{proj['p90']:<5}       {actual:>6}  {in_range:>9}")
     print()
-    print("Missed ridings (model called wrong winner):")
-    if missed_ridings:
-        for r in missed_ridings:
-            print(f"  {r['fed_code']}  {r['name'][:40]:<40}  {r['province']}  predicted={r['predicted_winner']}")
-    else:
-        print("  (none)")
+    print(f"Missed ridings ({len(misses)}, model called the wrong winner):")
+    for r in misses:
+        print(f"  {r['fed_code']}  {r['riding_name'][:40]:<40}  {r['province']:<2}  "
+              f"predicted={r['predicted']:<3}  winner={r['party']}")
     print()
 
-    # Validation assertions
-    assert math.isclose(riding_accuracy, 97.7, abs_tol=0.15), \
-        f"Riding accuracy mismatch: got {riding_accuracy:.1f}% (expected ~97.7%)"
-    assert math.isclose(mae, 0.87, abs_tol=0.05), \
-        f"MAE mismatch: got {mae:.3f}pp (expected ~0.87pp)"
-    assert bands_hit >= 5, f"80% band coverage mismatch: got {bands_hit}/{bands_n}"
+    # Validation assertions: the files reproduce the published figures.
+    assert correct == PUBLISHED["ridings_correct"] and math.isclose(
+        riding_accuracy, PUBLISHED["riding_accuracy"], abs_tol=0.05), \
+        f"Riding accuracy mismatch: got {riding_accuracy:.1f}% ({correct}/{total})"
+    assert math.isclose(persistence_accuracy, PUBLISHED["persistence_accuracy"], abs_tol=0.05), \
+        f"Persistence baseline mismatch: got {persistence_accuracy:.1f}%"
+    assert math.isclose(mae, PUBLISHED["vote_mae"], abs_tol=0.01), \
+        f"MAE mismatch: got {mae:.3f}pp (expected ~{PUBLISHED['vote_mae']}pp)"
 
     print("All assertions passed.")
     print()

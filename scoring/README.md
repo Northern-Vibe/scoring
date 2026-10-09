@@ -14,67 +14,44 @@ No dependencies beyond the Python standard library. No model imports.
 
 | Path | Contents |
 |------|----------|
-| `fixtures/ge45_prediction_2025-04-27.json` | Frozen model output — predicted national vote shares and seat distributions as of April 27, 2025 (one day before GE45 voting). No model weights or parameters. |
+| `fixtures/ge45_oos_backtest.json` | Frozen output of the out-of-sample backtest: each riding's predicted winner, the 2021 winner (the naive baseline), the national poll average the model was given, and the projected seat ranges. No model weights or parameters. |
 | `data/ge45_certified_results.csv` | Elections Canada certified riding-level results for GE45. Source: [elections.ca](https://www.elections.ca). Terrebonne (fed_code 24073) is excluded — its result was nullified by the courts. |
-| `evaluate.py` | Pure Python evaluator. Loads the fixture + the certified CSV and derives MAE, riding call accuracy, 80% seat band coverage, and a missed-riding list. |
+| `evaluate.py` | Pure Python evaluator. Compares every predicted winner with the certified winner, and derives riding call accuracy, the naive baseline, vote share MAE, 80% seat band coverage and the list of missed ridings. |
+
+## What the backtest is
+
+The backtest predicts the 2025 (GE45) result in every riding using only what existed before election day: each riding's **2021** result as the baseline, plus the national poll average as of **April 27, 2025**, one day before voting. No 2025 result touches a prediction; the certified results are used only to score the calls.
+
+It is **retrospective**: the model was run after the election, not before. What keeps it honest is the wall between inputs and results, which you can check in `simulation/backtest_ge45_oos.py`, not a pre-election timestamp. The fixture was generated with `python -m simulation.backtest_ge45_oos --export-fixture scoring/fixtures/ge45_oos_backtest.json`.
 
 ## Expected output
 
 ```
-Northern Vibe — GE45 Scoring Report
-Fixture : ge45_prediction_2025-04-27.json
+Northern Vibe — GE45 Out-of-Sample Scoring Report
+Fixture : ge45_oos_backtest.json
 Results : ge45_certified_results.csv
--------------------------------------------------------
-Riding call accuracy : 97.7%  (334 / 342)
-Vote share MAE       : 0.87pp
-80% seat bands hit   : 6 / 6
--------------------------------------------------------
-
-Vote share detail:
-  Party   Predicted     Actual     Error
-  --------------------------------------
-  LPC        43.37%     43.97%  +  0.60pp
-  CPC        39.11%     41.56%  +  2.45pp
-  NDP         7.65%      6.33%   -1.32pp
-  BQ          6.18%      6.22%  +  0.04pp
-  GPC         1.45%      1.22%   -0.23pp
-  PPC         1.27%      0.70%   -0.57pp
-
-Seat projection detail (80% range = p10–p90):
-  Party   Median     80% range  Actual  In range?
-  -----------------------------------------------
-  LPC        182    156–212            168        YES
-  CPC        129    101–155            144        YES
-  NDP          8      5–12               7        YES
-  BQ          22     17–27              22        YES
-  GPC          1      0–2                1        YES
-  PPC          0      0–0                0        YES
-
-Missed ridings (model called wrong winner):
-  35118  Windsor—Tecumseh—Lakeshore                ON  predicted=LPC
-  62001  Nunavut                                   NU  predicted=LPC
-  12001  Acadie—Annapolis                          NS  predicted=LPC
-  35058  Markham—Unionville                        ON  predicted=LPC
-  59020  New Westminster—Burnaby—Maillardville     BC  predicted=NDP
-  59010  Cowichan—Malahat—Langford                 BC  predicted=NDP
-  48020  Edmonton Riverbend                        AB  predicted=LPC
-  59021  North Island—Powell River                 BC  predicted=NDP
-
-All assertions passed.
+Inputs  : GE44 (2021) riding results + national polls as of 2025-04-27
+------------------------------------------------------------
+Riding call accuracy   : 88.0%  (301 / 342)
+2021 winner holds      : 83.3%  (285 / 342)  [naive baseline]
+Vote share MAE         : 0.87pp
+80% seat bands hit     : 6 / 6
+LPC majority (model)   : 72.6%  (actual: 168 seats)
+------------------------------------------------------------
 ```
 
-The summary numbers match the `/accuracy` page exactly. Note: vote shares are computed over the 342 eligible ridings — Terrebonne (24073) is excluded because its result was nullified by the courts, so the national percentages differ slightly from Elections Canada's official all-ridings totals.
+It then prints the vote share and seat detail per party and the 41 ridings the model called wrong, and ends with `All assertions passed.` The summary numbers match the `/accuracy` page. Vote shares are computed over the 342 eligible ridings — Terrebonne (24073) is excluded because its result was nullified by the courts, so the national percentages differ slightly from Elections Canada's official all-ridings totals.
 
-## Pre-registration note
+## Future elections
 
-The fixture file is committed to this repository with a Git timestamp prior to any post-election analysis. The Git commit hash is an unforgeable record that these predictions existed before polls closed on April 28, 2025.
-
-For future elections, see `docs/snapshot_protocol.md` for the procedure to lock a pre-election snapshot.
+For a forecast that can be checked against a pre-election timestamp, see `docs/snapshot_protocol.md` for the procedure to lock a snapshot before polls close.
 
 ## Metric definitions
 
-**Vote share MAE** — Mean absolute error across the six tracked parties (LPC, CPC, NDP, BQ, GPC, PPC) between the model's predicted national vote share and the certified result. Lower is better.
+**Riding call accuracy**: Fraction of the 342 eligible ridings where the model's most likely winner matched the certified winner. Terrebonne is excluded (nullified result).
 
-**Riding call accuracy** — Fraction of the 342 eligible ridings where the party with the highest simulated win probability matched the certified winner. Terrebonne is excluded (nullified result).
+**2021 winner holds**: The same score for a naive baseline that predicts every riding stays with its 2021 winner. The model's skill is its margin over this.
 
-**80% seat bands hit** — Number of parties (out of 6) whose certified seat count fell within the model's p10–p90 seat projection range.
+**Vote share MAE**: Mean absolute error across the six tracked parties (LPC, CPC, NDP, BQ, GPC, PPC) between the national poll average the model was given and the certified result. Lower is better.
+
+**80% seat bands hit**: Number of parties (out of 6) whose certified seat count fell within the model's p10–p90 seat projection range.

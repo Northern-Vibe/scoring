@@ -5,6 +5,16 @@ Parameters are never adjusted retroactively to improve past accuracy figures.
 
 ---
 
+## 2026-10-08 — Scoring harness moved to the out-of-sample backtest
+
+**Trigger:** The published headline is the out-of-sample backtest (88.0%), but the harness still reproduced the in-sample check (97.7%), and the site no longer shows the in-sample figure.
+
+**Changes:** `scoring/fixtures/ge45_oos_backtest.json` replaces `ge45_prediction_2025-04-27.json`. It holds every riding's predicted winner from `simulation/backtest_ge45_oos.py` (2021 baseline plus the 2025-04-27 national poll average), and `scoring/evaluate.py` now derives riding call accuracy from those predictions instead of counting a list of misses. The backtest's poll input for 2025-04-27 is now a frozen constant: `poll_aggregate` is recomputed over its whole history when the aggregator changes, and reading it had drifted the result to 300/342 and a 0.78pp vote error. The frozen values reproduce the published 301/342 and 0.87pp.
+
+**What did not change:** The model, and the published out-of-sample figures.
+
+---
+
 ## 2026-04-29 — Post-GE45 recalibration
 
 **Trigger:** Elections Canada released the certified GE45 results on April 29, 2026.
@@ -21,11 +31,9 @@ Parameters are never adjusted retroactively to improve past accuracy figures.
 
 ---
 
-## 2025-04-28 — GE45 pre-election snapshot locked
+## 2026-05-02 — GE45 scoring fixture added (corrected 2026-10-08)
 
-**Trigger:** GE45 voting day. Snapshot committed to `scoring/fixtures/ge45_prediction_2025-04-27.json` before polls closed.
-
-**Details:** Model output frozen using poll average as of 2025-04-27. Git commit timestamp serves as the unforgeable pre-registration record. See `docs/snapshot_protocol.md` for the full procedure.
+**Correction:** An earlier version of this entry, dated 2025-04-28, said the fixture was committed before polls closed and that its Git timestamp was a pre-registration record. It was not: `scoring/fixtures/ge45_prediction_2025-04-27.json` was first committed on 2026-05-02 (a43b2ba), after the election. It recorded the national poll average as of 2025-04-27 and the in-sample reproduction's seat ranges and missed ridings. It was replaced on 2026-10-08 (above). `docs/snapshot_protocol.md` describes how to lock a snapshot before polls close for future elections.
 
 ---
 
